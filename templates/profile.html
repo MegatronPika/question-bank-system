@@ -1,0 +1,183 @@
+{% extends "base.html" %}
+
+{% block title %}个人资料 - 金融业数字化转型技能大赛题库系统{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card shadow">
+            <div class="card-header">
+                <h3 class="mb-0">
+                    <i class="fas fa-user-circle text-primary"></i>
+                    个人资料
+                </h3>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5>基本信息</h5>
+                        <table class="table">
+                            <tr>
+                                <td><strong>用户名：</strong></td>
+                                <td>{{ user_id }}</td>
+                            </tr>
+                            <tr>
+                                <td><strong>注册时间：</strong></td>
+                                <td>{{ profile.created_time[:19] if profile.created_time else '未知' }}</td>
+                            </tr>
+                            <tr>
+                                <td><strong>最后登录：</strong></td>
+                                <td>{{ profile.last_login[:19] if profile.last_login else '从未登录' }}</td>
+                            </tr>
+                            <tr>
+                                <td><strong>最后登录IP：</strong></td>
+                                <td>{{ profile.last_ip or '未知' }}</td>
+                            </tr>
+                        </table>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <h5>学习统计</h5>
+                        <div id="stats-container">
+                            <div class="text-center">
+                                <i class="fas fa-spinner fa-spin"></i>
+                                加载中...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mt-4">
+                    <h5>最近考试记录</h5>
+                    <div id="exam-records">
+                        <div class="text-center">
+                            <i class="fas fa-spinner fa-spin"></i>
+                            加载中...
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mt-4 text-center">
+                    <a href="/" class="btn btn-custom">
+                        <i class="fas fa-home"></i> 返回主页
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+$(document).ready(function() {
+    loadUserStats();
+    loadExamRecords();
+});
+
+function loadUserStats() {
+    $.ajax({
+        url: '/get_user_stats',
+        method: 'POST',
+        contentType: 'application/json',
+        data: JSON.stringify({}),
+        success: function(response) {
+            if (response.success) {
+                const stats = response.stats;
+                $('#stats-container').html(`
+                    <div class="row text-center">
+                        <div class="col-6">
+                            <div class="card bg-primary text-white">
+                                <div class="card-body">
+                                    <h4>${stats.answered_count}</h4>
+                                    <small>已做题目</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card bg-warning text-white">
+                                <div class="card-body">
+                                    <h4>${stats.wrong_count}</h4>
+                                    <small>错题数量</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row text-center mt-3">
+                        <div class="col-6">
+                            <div class="card bg-success text-white">
+                                <div class="card-body">
+                                    <h4>${stats.exam_count}</h4>
+                                    <small>考试次数</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card bg-info text-white">
+                                <div class="card-body">
+                                    <h4>${stats.avg_score || 0}</h4>
+                                    <small>平均分数</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `);
+            } else {
+                $('#stats-container').html('<div class="alert alert-warning">无法加载统计数据</div>');
+            }
+        },
+        error: function() {
+            $('#stats-container').html('<div class="alert alert-danger">加载统计数据失败</div>');
+        }
+    });
+}
+
+function loadExamRecords() {
+    $.ajax({
+        url: '/get_exam_records',
+        method: 'POST',
+        contentType: 'application/json',
+        data: JSON.stringify({}),
+        success: function(response) {
+            if (response.success && response.records.length > 0) {
+                let html = '<div class="table-responsive"><table class="table table-striped">';
+                html += '<thead><tr><th>考试时间</th><th>分数</th><th>状态</th><th>操作</th></tr></thead><tbody>';
+                
+                response.records.slice(0, 5).forEach(record => {
+                    const examTime = new Date(record.start_time).toLocaleString();
+                    const status = record.status === 'completed' ? 
+                        '<span class="badge bg-success">已完成</span>' : 
+                        '<span class="badge bg-warning">进行中</span>';
+                    
+                    html += `
+                        <tr>
+                            <td>${examTime}</td>
+                            <td>${record.total_score || 0}</td>
+                            <td>${status}</td>
+                            <td>
+                                <button class="btn btn-sm btn-outline-primary" onclick="viewExamDetail('${record.exam_id}')">
+                                    <i class="fas fa-eye"></i> 查看详情
+                                </button>
+                            </td>
+                        </tr>
+                    `;
+                });
+                
+                html += '</tbody></table></div>';
+                $('#exam-records').html(html);
+            } else {
+                $('#exam-records').html('<div class="alert alert-info">暂无考试记录</div>');
+            }
+        },
+        error: function() {
+            $('#exam-records').html('<div class="alert alert-danger">加载考试记录失败</div>');
+        }
+    });
+}
+
+function viewExamDetail(examId) {
+    // 这里可以添加查看考试详情的功能
+    alert('考试详情功能开发中...');
+}
+</script>
+{% endblock %} 

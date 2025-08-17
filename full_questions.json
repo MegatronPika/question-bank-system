@@ -2636,7 +2636,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "文本分类可用多种模型实现，如 LSTM（RNN）、SVM、BERT 和 KNN。",
       "score": 10.0,
       "type": 2
@@ -2667,7 +2667,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "C适合批量学习。",
       "score": 10.0,
       "type": 2
@@ -2698,7 +2698,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "所有选项都是导致类型转换失败的常见原因。",
       "score": 10.0,
       "type": 2
@@ -2729,7 +2729,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "Isolation Forest、One-Class SVM 和 Autoencoder 常用于异常检测；Logistic Regression 一般用于分类。",
       "score": 10.0,
       "type": 2
@@ -2760,7 +2760,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "`duplicated()` 用于处理重复值，而不是缺失值。",
       "score": 10.0,
       "type": 2
@@ -2791,7 +2791,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "D（性别）与欺诈风险无直接关联，可能引入偏见。",
       "score": 10.0,
       "type": 2
@@ -2822,7 +2822,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "AVG（平均值）、MEDIAN（中位数）、MODE（众数）** 都是描述数据集中趋势的指标；**STDDEV** 描述离散程度。",
       "score": 10.0,
       "type": 2
@@ -2853,7 +2853,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "热力图和散点图是展示特征相关性的常用图表，折线图一般用于时间序列，箱型图用于分布展示。",
       "score": 10.0,
       "type": 2
@@ -2884,7 +2884,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "`cor()` 和 `lm()` 不直接输出相关性 p 值；`cor.test()` 和 `rcorr()` 提供显著性检验。",
       "score": 10.0,
       "type": 2
@@ -2915,7 +2915,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "尽管瀑布图最初是在财务管理中发展起来的，但现在已经被扩展到了许多其他领域，只要涉及到逐步累积的过程都可以考虑使用该种图表。",
       "score": 10.0,
       "type": 2
@@ -2951,7 +2951,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "忽略缺失值可能导致信息丢失，影响模型性能。",
       "score": 10.0,
       "type": 2
@@ -2982,7 +2982,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "清洗数据是为了提高数据质量和分析准确性，确保模型训练效果；增加存储不是目的。",
       "score": 10.0,
       "type": 2
@@ -3013,7 +3013,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,C",
       "analysis": "折线图不仅可以处理时间序列数据，也可以用于其他形式的连续数据集。它有助于揭示数据随某一因素变化的趋势，但对于非常庞大的数据集可能会显得不够清晰。",
       "score": 10.0,
       "type": 2
@@ -3044,7 +3044,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "需综合排查数据、模型、业务三方面。",
       "score": 10.0,
       "type": 2
@@ -3075,7 +3075,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "B,C",
       "analysis": "B、C是风控典型场景；A属客户管理，D是数据库优化技术。",
       "score": 10.0,
       "type": 2
@@ -3111,7 +3111,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,C,D,E",
       "analysis": "聚类广泛应用于客户细分、图像处理、社交网络分析及推荐系统的特征工程中；医学诊断更依赖监督学习。",
       "score": 10.0,
       "type": 2
@@ -3142,7 +3142,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "D错误，高维特征直接建模会导致维度灾难；A为业务可解释的过滤法，B/C为嵌入法典型代表。",
       "score": 10.0,
       "type": 2
@@ -3173,7 +3173,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "B,C,D",
       "analysis": "`float()`直接转换，`pd.to_numeric()`可容错转换，`eval()`也能解析字符串表达式，但不推荐用于数据清洗。",
       "score": 10.0,
       "type": 2
@@ -3204,7 +3204,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "C（社交活跃度）缺乏业务相关性，需谨慎使用。",
       "score": 10.0,
       "type": 2
@@ -3235,7 +3235,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "B,C",
       "analysis": "DBSCAN和Mean Shift适用于非球形分布的数据，而K-means和高斯混合模型更适合球形分布。",
       "score": 10.0,
       "type": 2
@@ -3266,7 +3266,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "GBDT通过迭代方式逐步构建模型，每棵树拟合当前模型的残差，通常需要较多调参。",
       "score": 10.0,
       "type": 2
@@ -3302,7 +3302,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,D",
       "analysis": "偏度为0表示对称分布；正值为右偏，负值为左偏；偏度绝对值越大偏离对称越严重；偏度适用于任何分布类型。",
       "score": 10.0,
       "type": 2
@@ -3333,7 +3333,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "负价格、未来出生日期、150岁的年龄都是不符合逻辑的数据，属于异常值；销售额为0是正常现象。",
       "score": 10.0,
       "type": 2
@@ -3369,7 +3369,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,E",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -3400,7 +3400,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "B,D",
       "analysis": "MAE和MSE是常用的回归评估指标；准确率和F1分数用于分类任务。",
       "score": 10.0,
       "type": 2
@@ -3431,7 +3431,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,C,D",
       "analysis": "随机森林、AdaBoost 和 Gradient Boosting 都是集成学习方法，决策树是单一模型。",
       "score": 10.0,
       "type": 2
@@ -3462,7 +3462,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -3498,7 +3498,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,D,E",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -3529,7 +3529,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "线性回归是典型的参数模型。它预先假设因变量与自变量之间存在线性关系（即y=wx+b的固定形式），模型的参数（权重w和偏置b）是固定维度的，不会随样本量增加而变化，因此不属于非参数模型。",
       "score": 10.0,
       "type": 2
@@ -3560,7 +3560,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "B,D",
       "analysis": "p值大于0.05说明该变量在当前模型中统计不显著，但不一定无影响，也不一定删除，可能与其他变量有关联。",
       "score": 10.0,
       "type": 2
@@ -3596,7 +3596,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "行业盈亏系数越低，风险越小（选项 E 错误）。",
       "score": 10.0,
       "type": 2
@@ -3632,7 +3632,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,E",
       "analysis": "质押是债权人占有质物优先受偿的权利，质押合同需记载主债权信息，以此发放的贷款为质押贷款，移交的动产为质物。动产质押中债权人为质权人，故前三项和第五项正确",
       "score": 10.0,
       "type": 2
@@ -3663,7 +3663,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -3699,7 +3699,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "目前，我国商业银行资产负债组合管理的实施工具可以分为限额管理型、价格管理型、窗口指导型和产品创新型四种类型，各类资产负债管理工具正处于不断改进和扩展阶段，不同工具相互配合使用。",
       "score": 10.0,
       "type": 2
@@ -3730,7 +3730,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -3766,7 +3766,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,D,E",
       "analysis": "《中华人民共和国刑法》规定刑罚的主刑包括管制、拘役、有期徒刑、无期徒刑、死刑。",
       "score": 10.0,
       "type": 2
@@ -3797,7 +3797,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -3833,7 +3833,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "表外业务主要当事人由委托人、代理行、受益人三部分组成，委托人和代理行必须具备一定条件后，委托人、代理行、受益人三者才能签订具有法律效力的合同。",
       "score": 10.0,
       "type": 2
@@ -3869,7 +3869,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,E",
       "analysis": "在实践中，通常将金融风险可能造成的损失分为预期损失、非预期损失和灾难性损失三大类。",
       "score": 10.0,
       "type": 2
@@ -3905,7 +3905,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,E",
       "analysis": "董事会应监督合规政策的有效实施，使合规缺陷得到及时有效的解决。高级管理层应贯彻执行合规政策，建立合规管理部门的组织结构，并配备充分和适当的资源，确保发现违规事件时及时采取适当的纠正措施。D 项错误，E 项正确。",
       "score": 10.0,
       "type": 2
@@ -3936,7 +3936,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -3972,7 +3972,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "C,E",
       "analysis": "流动性风险包括融资流动性风险和市场流动性风险。",
       "score": 10.0,
       "type": 2
@@ -4003,7 +4003,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -4039,7 +4039,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,D,E",
       "analysis": "对通货膨胀的衡量可以通过一般物价水平上涨幅度的衡量来进行，一般说来，常用的指标有消费者物价指数、生产者物价指数、国内生产总值物价平减指数三种。",
       "score": 10.0,
       "type": 2
@@ -4070,7 +4070,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,C,D",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -4106,7 +4106,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,E",
       "analysis": "银行资本的作用主要有以下四项：①为银行提供融资；②吸收和消化损失；③限制业务过度扩张；④维持市场信心。",
       "score": 10.0,
       "type": 2
@@ -4142,7 +4142,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,C,E",
       "analysis": "董事长个人住房抵押需本人同意且合法（选项 B 可行性低）。将抵押贷款调整为信用贷款会增加风险（选项 D 不可行）。",
       "score": 10.0,
       "type": 2
@@ -4178,7 +4178,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "B,C,D",
       "analysis": "短期流动性指标包括流动性比例、流动性覆盖率、超额备付金率。净稳定资金比例和存贷比属于中长期结构性指标",
       "score": 10.0,
       "type": 2
@@ -4214,7 +4214,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "C,E",
       "analysis": "流动性风险包括融资流动性风险和市场流动性风险。",
       "score": 10.0,
       "type": 2
@@ -4250,7 +4250,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B,C,D,E",
       "analysis": "已核销的账销案存资产可批量转让（选项 A 错误）。",
       "score": 10.0,
       "type": 2
@@ -6620,7 +6620,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "`dtype`指定列类型，`converters`自定义转换函数，`parse_dates`将列自动转换为日期格式。`header`仅用于设置标题行。",
       "score": 10.0,
       "type": 2
@@ -6651,7 +6651,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,C",
       "analysis": "交互式可视化允许用户与图表进行互动，例如放大、缩小、筛选数据等，并支持动态更新。美观性和存储空间不是其主要优势。",
       "score": 10.0,
       "type": 2
@@ -6682,7 +6682,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "B,C",
       "analysis": "Lasso和Elastic Net可以通过L1正则化将部分系数压缩为零，从而实现特征选择。",
       "score": 10.0,
       "type": 2
@@ -6713,7 +6713,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -6744,7 +6744,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -6775,7 +6775,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "C,D",
       "analysis": "`cor()` 默认使用皮尔逊方法，且遇到 NA 默认返回 NA，除非指定 `use=` 参数。",
       "score": 10.0,
       "type": 2
@@ -6806,7 +6806,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "D错误，XGBoost支持特征级并行。",
       "score": 10.0,
       "type": 2
@@ -6837,7 +6837,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "`corrplot` 提供多种图形风格；`ggplot2` 可用 `geom_tile()` 实现；`gplots` 有 `heatmap.2()` 等函数；`stats` 不提供绘图功能。",
       "score": 10.0,
       "type": 2
@@ -6868,7 +6868,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "C错误，业务特征仍需人工设计；D属量化投资领域。",
       "score": 10.0,
       "type": 2
@@ -6899,7 +6899,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,C",
       "analysis": "SVR使用ε-不敏感损失函数，允许一定误差，并可通过核函数处理非线性问题。",
       "score": 10.0,
       "type": 2
@@ -6930,7 +6930,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "名义变量（如性别）通常不用相关性分析，而用卡方检验或其他方法。",
       "score": 10.0,
       "type": 2
@@ -6961,7 +6961,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "`cluster` 和 `factoextra` 是R中用于非监督学习的包。`randomForest` 和 `kernlab` 主要用于监督学习。",
       "score": 10.0,
       "type": 2
@@ -6992,7 +6992,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "重复数据影响统计，主键可防止插入重复；`DISTINCT` 只在查询中有效，不能真正删除数据；重复数据不一定错误，需结合业务判断。",
       "score": 10.0,
       "type": 2
@@ -7023,7 +7023,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "这些函数都可以用于不同类型的回归分析。`lm()` 用于线性回归，`glm()` 用于广义线性模型，`nls()` 用于非线性最小二乘回归，`survreg()` 用于生存回归。",
       "score": 10.0,
       "type": 2
@@ -7059,7 +7059,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,D,E",
       "analysis": "线性回归是回归模型，不属于分类模型；其余均为常见分类算法。",
       "score": 10.0,
       "type": 2
@@ -7090,7 +7090,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,C",
       "analysis": "`OneHotEncoder`默认输出稀疏矩阵，适合无序类别，但不会处理缺失值，也不建议用于目标变量。",
       "score": 10.0,
       "type": 2
@@ -7121,7 +7121,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "KNN不需要训练过程，属于惰性学习，计算开销大，对异常值敏感，不适合高维数据。",
       "score": 10.0,
       "type": 2
@@ -7152,7 +7152,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "C,D",
       "analysis": "Plotly 和 Pyecharts 支持交互式图表，而 Matplotlib 和 Seaborn 主要是静态图表。",
       "score": 10.0,
       "type": 2
@@ -7183,7 +7183,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "Dropout是一种正则化技术，在训练时随机关闭神经元以增强泛化能力，测试阶段不使用。",
       "score": 10.0,
       "type": 2
@@ -7214,7 +7214,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "皮尔逊相关系数对离群点、非线性关系、偏态分布和小样本都比较敏感，容易产生误导。",
       "score": 10.0,
       "type": 2
@@ -7245,7 +7245,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "D违反生物信息存储最小化原则，应改用特征向量。",
       "score": 10.0,
       "type": 2
@@ -7276,7 +7276,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "异常值和样本量小会影响估计稳定性；非线性关系不适合皮尔逊相关；标准化不影响相关性。",
       "score": 10.0,
       "type": 2
@@ -7307,7 +7307,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "这些函数都可以用于模型评估和诊断。",
       "score": 10.0,
       "type": 2
@@ -7338,7 +7338,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "高相关性特征可能导致多重共线性问题，从而影响模型的稳定性和泛化能力；而维度降低是解决这一问题的方法之一。",
       "score": 10.0,
       "type": 2
@@ -7369,7 +7369,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "当变量间存在非线性关系、有异常值或变量是类别变量时，应避免使用皮尔逊相关系数。",
       "score": 10.0,
       "type": 2
@@ -7400,7 +7400,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,D",
       "analysis": "逻辑回归和朴素贝叶斯在高维稀疏数据上表现较好，SVM和决策树可能效果不佳，除非进行特征选择。",
       "score": 10.0,
       "type": 2
@@ -7431,7 +7431,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "B,C,D",
       "analysis": "当缺失比例大或缺失机制为 MAR/MCAR 时，插补更合适。",
       "score": 10.0,
       "type": 2
@@ -7467,7 +7467,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,D,E",
       "analysis": "所有这些方法都可以用于多分类任务。",
       "score": 10.0,
       "type": 2
@@ -7503,7 +7503,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,E",
       "analysis": "国务院银行业监督管理机构的监管理念为 “管法人、管风险、管内控、提高透明度”，不包括管市场",
       "score": 10.0,
       "type": 2
@@ -7539,7 +7539,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "个人外汇业务按照交易性质区分经常项目和资本项目个人外汇业务。按照交易主体区分境内与境外个人外汇业务",
       "score": 10.0,
       "type": 2
@@ -7575,7 +7575,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "划分交易账户和银行账户的目的是准确计量市场风险资本、实施有效市场风险管理（选项 C、D、E 不属于主要目的）。",
       "score": 10.0,
       "type": 2
@@ -7611,7 +7611,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B,C,D,E",
       "analysis": "要选择最佳的还款方式，需要综合考虑借款人的收入水平、还款能力及借款额度、借款利率、借款期限、担保方式等方面情况。",
       "score": 10.0,
       "type": 2
@@ -7647,7 +7647,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "银行账户利率风险计量方法包括敏感性分析、缺口分析、情景模拟、久期分析等。敞口分析主要用于汇率风险等，故前四项正确",
       "score": 10.0,
       "type": 2
@@ -7678,7 +7678,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -7714,7 +7714,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,D,E",
       "analysis": "风险分散是指通过多样化的投资来分散和降低风险的策略性选择，也就是 “不要将所有的鸡蛋放在同一个篮子里”。根据多样化投资分散风险的原理，商业银行的信贷业务应是全面的，而不应集中于同一业务、同一性质甚至同一借款人。商业银行可以通过资产组合管理或与其他商业银行组成银团贷款的方式，使自己的授信对象多样化，从而分散和降低风险。",
       "score": 10.0,
       "type": 2
@@ -7750,7 +7750,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,C,D",
       "analysis": "美式期权允许期权持有者在期权到期日前的任何时间行权，对期权购买者更有利；欧式期权只允许期权持有者在期权到期日行权；期权的买方为获得权利需向卖方支付期权费；看涨期权是买方拥有的买入基础资产的权利",
       "score": 10.0,
       "type": 2
@@ -7786,7 +7786,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,E",
       "analysis": "风险是一个明确的事前概念（选项 C 错误）。将风险等同于损失会削弱风险管理的积极性和主动性（选项 D 错误）。",
       "score": 10.0,
       "type": 2
@@ -7822,7 +7822,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,D,E",
       "analysis": "金融市场是指货币资金融通和金融工具交易的场所。金融市场的融资行为既包括以银行等金融机构为信用媒介的间接融资行为，也包括各类交易主体之间的直接融资行为。B、C 两项正确。金融市场的主体是各类融资活动的参与者，它们既是资金的供应者，也是资金的需求者，一般包括工商企业、金融机构、中央银行、居民个人与家庭、政府、海外投资者等。D、E 两项正确。金融市场的客体是金融交易对象。金融市场的交易对象是货币资金，通常以金融工具为载体。A 项正确。",
       "score": 10.0,
       "type": 2
@@ -7853,7 +7853,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -7889,7 +7889,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "C,D,E",
       "analysis": "银行代理的财产险包括家庭财产险、企业财产险、房贷险等。投连险和万能险属于人身保险新型产品",
       "score": 10.0,
       "type": 2
@@ -7925,7 +7925,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "银行代理信托往往采用信托代理资金收付的模式；受托人不承担无过失的损失风险；按信托关系建立的方式可分为任意信托和法定信托；信托产品流动性较差；信托机构处理受托财产而发生的亏损由委托人承担",
       "score": 10.0,
       "type": 2
@@ -7961,7 +7961,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B,D,E",
       "analysis": "金融凭证诈骗罪，是指以非法占有为目的，采用虚构事实、隐瞒真相的方法，使用伪造、变造的委托收款凭证、汇款凭证、银行存单等其他银行结算凭证进行诈骗活动的行为。",
       "score": 10.0,
       "type": 2
@@ -7997,7 +7997,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,E",
       "analysis": "资产管理产品按投资范围分为固定收益类、权益类、商品及金融衍生品类、混合类，委外投资类不属于按投资范围的分类",
       "score": 10.0,
       "type": 2
@@ -8033,7 +8033,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,E",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -8064,7 +8064,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -8100,7 +8100,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,E",
       "analysis": "金融风险可能造成的损失分为预期损失、非预期损失、灾难性损失。",
       "score": 10.0,
       "type": 2
@@ -10014,7 +10014,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "D错误，逐步回归并不保证找到全局最优模型，只是局部搜索策略。",
       "score": 10.0,
       "type": 2
@@ -10045,7 +10045,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -10081,7 +10081,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B,D,E",
       "analysis": "K-means、DBSCAN和层次聚类是常见的聚类算法；决策树和支持向量机属于监督学习方法。",
       "score": 10.0,
       "type": 2
@@ -10117,7 +10117,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B,C,E",
       "analysis": "离群点不一定都是错误数据，也可能是数据本身的自然变异，有时还能揭示重要模式或问题。",
       "score": 10.0,
       "type": 2
@@ -10148,7 +10148,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,C,D",
       "analysis": "K-means、层次聚类和高斯混合模型对异常值较为敏感，而DBSCAN相对鲁棒。",
       "score": 10.0,
       "type": 2
@@ -10179,7 +10179,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "柱状图擅长于比较不同类别下的数值差异，因此适合上述提到的情况。然而，股票价格走势通常会用专门设计的K线图或其他金融图表来表示。",
       "score": 10.0,
       "type": 2
@@ -10210,7 +10210,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "`IFNULL`、`NVL` 和 `COALESCE` 都可用于替换 NULL 值；`REPLACE` 用于替换字符串内容，不处理 NULL。",
       "score": 10.0,
       "type": 2
@@ -10241,7 +10241,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "删除冗余特征有助于简化模型、避免过拟合并增强可解释性，不会增加训练时间。",
       "score": 10.0,
       "type": 2
@@ -10277,7 +10277,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "描述性统计提供均值、方差等信息，本身不直接检测离群点，需结合其他方法；",
       "score": 10.0,
       "type": 2
@@ -10313,7 +10313,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "均方误差（MSE）用于回归任务，不属于分类模型评估指标。",
       "score": 10.0,
       "type": 2
@@ -10344,7 +10344,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "这些包都包含用于时间序列分析的函数。",
       "score": 10.0,
       "type": 2
@@ -10375,7 +10375,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,C",
       "analysis": "A和C正确，C还排除了NULL值的影响；B语法错误（GROUP BY price后不能直接用MAX等）；D只统计频次。",
       "score": 10.0,
       "type": 2
@@ -10406,7 +10406,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "B,C",
       "analysis": "DBSCAN和Mean Shift可以自动确定簇的数量，而K-means和高斯混合模型需要预先指定簇数。",
       "score": 10.0,
       "type": 2
@@ -10437,7 +10437,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "TensorFlow、PyTorch和Keras是主流深度学习框架；Scikit-learn是传统机器学习库。",
       "score": 10.0,
       "type": 2
@@ -10468,7 +10468,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "D（分箱）是合规的特征工程手段。",
       "score": 10.0,
       "type": 2
@@ -10499,7 +10499,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "B,C",
       "analysis": "`DISTINCT` 用于查询去重，`ROW_NUMBER()` 配合 CTE 可删除重复行，`DELETE` 加子查询也可实现删除；`UNIQUE` 是唯一性约束，不能直接用于删除已有重复。",
       "score": 10.0,
       "type": 2
@@ -10530,7 +10530,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "热力图主要用于展示数值矩阵，如相关系数矩阵，不能用于展示类别分布。",
       "score": 10.0,
       "type": 2
@@ -10561,7 +10561,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "sns.boxplot() 是箱型图函数，不属于散点图类。",
       "score": 10.0,
       "type": 2
@@ -10592,7 +10592,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "TensorFlow、PyTorch 和 Keras 都是深度学习常用框架；Scikit-learn 主要用于传统机器学习。",
       "score": 10.0,
       "type": 2
@@ -10628,7 +10628,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "离群点处理策略多样，视具体情况而定；不能一概而论必须剔除。",
       "score": 10.0,
       "type": 2
@@ -10664,7 +10664,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,D,E",
       "analysis": "推荐系统通常是协同过滤等无监督或强化学习方法；股票涨跌预测若为“涨/跌”也属于分类。",
       "score": 10.0,
       "type": 2
@@ -10695,7 +10695,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "斯皮尔曼等级相关系数基于排名，适合非线性关系，并且对异常值不敏感，但它不能通过SQL直接计算。",
       "score": 10.0,
       "type": 2
@@ -10726,7 +10726,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "sns.pairplot() 可用于快速查看变量间的关系，也可通过hue参数显示分类信息。",
       "score": 10.0,
       "type": 2
@@ -10762,7 +10762,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,D,E",
       "analysis": "根据《商业银行委托贷款管理办法》第11条，商业银行受托发放的贷款应有明确用途，资金用途应符合法律法规、国家宏观调控和产业政策。资金用途不得为以下方面：（一）生产、经营或投资国家禁止的领域和用途。（二）从事债券、期货、金融衍生品、资产管理产品等投资。（三）作为注册资本金、注册验资。（四）用于股本权益性投资或增资扩股（监管部门另有规定的除外）。（五）其他违反监管规定的用途。",
       "score": 10.0,
       "type": 2
@@ -10798,7 +10798,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,D,E",
       "analysis": "要约是希望和他人订立合同的意思表示。承诺是受要约人同意要约的意思表示。行为人可以撤回意思表示。撤回意思表示的通知应当在意思表示到达相对人前或者与意思表示同时到达相对人。",
       "score": 10.0,
       "type": 2
@@ -10834,7 +10834,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,D,E",
       "analysis": "信用中介职能是商业银行最基本的职能。银行通过吸收存款，动员和集中社会上一切闲置的货币资本，然后又通过放款把这些货币资本贷方给需要资本的企业使用。这样，银行就成了货币资本的贷出者和借入者之间的中介人。银行作为信用中介，克服了企业之间直接借贷的种种局限性，如在资本数量、借贷时间、空间上不一致性及不了解信用能力等局限性。通过信用中介职能对资本进行再分配，使货币资本得到充分有效的运用，加速了资本的周转，促进了生产的发展。C 项是商业银行支付中介职能。",
       "score": 10.0,
       "type": 2
@@ -10865,7 +10865,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "压力测试需覆盖信用、市场、流动性、操作风险，战略风险不强制要求。",
       "score": 10.0,
       "type": 2
@@ -10901,7 +10901,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,D,E",
       "analysis": "《中华人民共和国银行业监督管理法》第三十七条规定，银行业金融机构违反审慎经营规则的，国务院银行业监督管理机构或者其省一级派出机构应当责令限期改正；逾期未改正的，或者其行为严重危及该银行业金融机构的稳健运行、损害存款人和其他客户合法权益的，经国务院银行业监督管理机构或者其省一级派出机构负责人批准，可以区别情形，采取下列措  施：①责令暂停部分业务、停止批准开办新业务；②限制分配红利和其他收入；③限制资产转让；④责令控股股东转让股权或者限制有关股东的权利；⑤责令调整董事、高级管理人员或者限制其权利；⑥停止批准增设分支机构。",
       "score": 10.0,
       "type": 2
@@ -10932,7 +10932,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "B,D",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -10968,7 +10968,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B,C,D,E",
       "analysis": "董事会（不设董事会的公司为执行董事）是公司的经营决策机构，负责召集股东（大）会，并向股东（大）会报告工作；执行股东（大）会决议，负责公司日常经营决策；聘任或者解聘公司经理（总经理），制定公司基本管理制度。董事会必须对股东（大）会负责，接受股东（大）会监督。董事长由董事会选举产生。董事长主持股东（大）会，召集并主持董事会，在诉讼事务和非诉讼事务上对外均代表公司。A 项为股东（大）会的职责。",
       "score": 10.0,
       "type": 2
@@ -11004,7 +11004,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "个人经营贷款发放后，贷款人要按照主动、动态、持续的原则要求进行贷后检查，通过实地现场检查和非现场监测方式，对借款人有关情况的真实性、收入变化情况，以及其他影响个人经营贷款资产质量的因素进行持续跟踪调查、分析，并采取相应补救措施。",
       "score": 10.0,
       "type": 2
@@ -11040,7 +11040,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,E",
       "analysis": "长期结构性分析的管理内容包括稳定的存款基础，资产负债期限错配处于合理范围。",
       "score": 10.0,
       "type": 2
@@ -11076,7 +11076,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "信息披露原则：侧重披露总量指标、谨慎披露结构指标、暂不披露机密指标（选项 C、E 错误）。",
       "score": 10.0,
       "type": 2
@@ -11112,7 +11112,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "日常国别风险信息监测渠道包括新闻平台、外部评级机构数据、银行内部信息（选项 D、E 不属于主要渠道）。",
       "score": 10.0,
       "type": 2
@@ -11148,7 +11148,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,C,D",
       "analysis": "风险计量方法具体包括缺口分析、敏感性分析、久期、风险值、压力测试、情景分析。（B项属于结构调节方法，E项属于风险对冲方法）",
       "score": 10.0,
       "type": 2
@@ -11179,7 +11179,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -11215,7 +11215,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,C,D,E",
       "analysis": "区域劳动人口的数量会影响区域自然资源开发利用的规模（生产规模的大小），区域人口的素质会影响区域经济的发展水平和区域产业的构成状况，应重点分析人口的数量、素质、分布及其资源数量和分布及生产布局的适应性或协调性，区域适度人口的规模等问题。",
       "score": 10.0,
       "type": 2
@@ -11246,7 +11246,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -11282,7 +11282,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,C,D",
       "analysis": "通常认为，中央银行的最后贷款人制度、金融监管机构的审慎监管、存款保险制度是构成金融安全网的三大支柱。",
       "score": 10.0,
       "type": 2
@@ -11313,7 +11313,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -11349,7 +11349,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,D,E",
       "analysis": "C项，资产负债率是负债与资产的比率，衡量商业银行的偿债能力，其值越大，表明企业偿债能力越弱，信用评级应越低。",
       "score": 10.0,
       "type": 2
@@ -11385,7 +11385,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,D,E",
       "analysis": "该通知禁止的违规吸存手段包括非法返利、延迟支付、同业倒存、高息揽储、第三方中介吸存等，以上均为禁止行为",
       "score": 10.0,
       "type": 2
@@ -13136,7 +13136,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,D,E",
       "analysis": "所有列出的因素都会影响聚类结果的质量和稳定性。",
       "score": 10.0,
       "type": 2
@@ -13167,7 +13167,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,C,D",
       "analysis": "CNN、ResNet和Transformer都可用于图像分类任务，GAN主要用于生成图像而非分类。",
       "score": 10.0,
       "type": 2
@@ -13198,7 +13198,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "以上均为实际数据分析中常见的问题，会影响数据分布分析的准确性。",
       "score": 10.0,
       "type": 2
@@ -13229,7 +13229,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "这些方法都可以用于识别异常值。",
       "score": 10.0,
       "type": 2
@@ -13260,7 +13260,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "D错误，变量变换会影响模型的解释和R²值。",
       "score": 10.0,
       "type": 2
@@ -13296,7 +13296,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "均值、中位数、众数均为集中趋势度量；极差和四分位距属于离散程度度量。",
       "score": 10.0,
       "type": 2
@@ -13332,7 +13332,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,C",
       "analysis": "轮廓系数和Calinski-Harabasz指数是纯内部指标，兰德指数和互信息需要真实标签。",
       "score": 10.0,
       "type": 2
@@ -13363,7 +13363,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "Pyecharts 支持地图绘制、动画、导出图片等多种功能。",
       "score": 10.0,
       "type": 2
@@ -13394,7 +13394,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "这些包都提供了缺失值插补的方法。",
       "score": 10.0,
       "type": 2
@@ -13425,7 +13425,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "`hist()` 是直方图，不专门用于可视化缺失值。",
       "score": 10.0,
       "type": 2
@@ -13456,7 +13456,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "C错误，部分特征可从批处理层补充（Lambda架构）。",
       "score": 10.0,
       "type": 2
@@ -13487,7 +13487,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,C",
       "analysis": "K-means和高斯混合模型需要预先指定簇的数量，而DBSCAN和Mean Shift可以自动确定。",
       "score": 10.0,
       "type": 2
@@ -13518,7 +13518,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -13554,7 +13554,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "C和E属于多分类或回归任务，不是二分类。",
       "score": 10.0,
       "type": 2
@@ -13585,7 +13585,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "逻辑回归输出概率，使用交叉熵损失，可用梯度下降优化；它并不假设特征服从正态分布。",
       "score": 10.0,
       "type": 2
@@ -13616,7 +13616,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "增加数据、使用正则化、进行特征选择都可以有效防止过拟合；增加模型复杂度反而会加剧过拟合。",
       "score": 10.0,
       "type": 2
@@ -13647,7 +13647,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "D（情感分析）与支付风控无关。",
       "score": 10.0,
       "type": 2
@@ -13678,7 +13678,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "排除异常值、检查缺失值和按类别分组都可以帮助确保数据质量，而排序数据不是必须的预处理步骤。",
       "score": 10.0,
       "type": 2
@@ -13709,7 +13709,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -13740,7 +13740,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "LCR 和 NSFR 是流动性风险指标，资本充足率和拨备覆盖率属于资本管理指标。",
       "score": 10.0,
       "type": 2
@@ -13771,7 +13771,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -13807,7 +13807,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,D,E",
       "analysis": "风险分散是指通过多样化的投资来分散和降低风险的策略性选择，也就是 “不要将所有的鸡蛋放在同一个篮子里”。根据多样化投资分散风险的原理，商业银行的信贷业务应是全面的，而不应集中于同一业务、同一性质甚至同一借款人。商业银行可以通过资产组合管理或与其他商业银行组成银团贷款的方式，使自己的授信对象多样化，从而分散和降低风险。",
       "score": 10.0,
       "type": 2
@@ -13838,7 +13838,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -13874,7 +13874,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,C,D",
       "analysis": "通常认为，中央银行的最后贷款人制度、金融监管机构的审慎监管、存款保险制度是构成金融安全网的三大支柱。",
       "score": 10.0,
       "type": 2
@@ -13910,7 +13910,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,C,D",
       "analysis": "银团贷款收费应当按照“自愿协商、公平合理、质价相符”的原则由银团成员和借款人协商确定（B项说法错误），并在银团贷款合同或费用函中载明。银团收费的具体项目可包括安排费、承诺费、代理费等。安排费一般按银团贷款总额的一定比例一次性支付；承诺费一般按未用余额的一定比例每年按银团贷款协议约定方式收取（E项说法错误）；代理费可根据代理行的工作量按年支付。银团贷款的收费应遵循“谁借款、谁付费\"的原则，由借款人支付。",
       "score": 10.0,
       "type": 2
@@ -13941,7 +13941,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "LCR和NSFR是流动性风险指标，资本充足率和拨备覆盖率属于资本管理指标。",
       "score": 10.0,
       "type": 2
@@ -13977,7 +13977,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "销售人员从事理财产品销售活动，应当遵循以下原则：①勤勉尽职原则；②诚实守信原则；③公平对待投资者原则；④专业胜任原则。",
       "score": 10.0,
       "type": 2
@@ -14013,7 +14013,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,C,E",
       "analysis": "银行的银行是指中央银行是商业银行的银行，即主要同商业银行发生业务关系，集中商业银行的准备金并对它们提供信用。其具体包括以下三项：①集中商业银行的存款准备；②办理商业银行间的清算；③对商业银行发放贷款。",
       "score": 10.0,
       "type": 2
@@ -14044,7 +14044,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -14075,7 +14075,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "操作风险包括内部 / 外部欺诈、系统故障等，市场波动属于市场风险。",
       "score": 10.0,
       "type": 2
@@ -14106,7 +14106,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -14142,7 +14142,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,D,E",
       "analysis": "商业银行支付给员工的年度薪酬总额要综合考虑当年人员总量、结构以及企业财务状况、经营成果、风险控制等多种因素，并参考上年薪酬总额占上年业务管理费的比例确定。",
       "score": 10.0,
       "type": 2
@@ -14178,7 +14178,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B,D,E",
       "analysis": "关联授信比例= (全部关联方授信总额/资本净额) ×100%。全部关联方授信总额是指商业银行全部关联方的授信余 额，扣除关联方提供的保证金存款以及质押的银行存单和我国中央政府债券。",
       "score": 10.0,
       "type": 2
@@ -14209,7 +14209,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -14245,7 +14245,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "销售人员从事理财产品销售活动，应当遵循以下原则：①勤勉尽职原则；②诚实守信原则；③公平对待投资者原则；④专业胜任原则。",
       "score": 10.0,
       "type": 2
@@ -15667,7 +15667,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "C违反隐私保护原则。",
       "score": 10.0,
       "type": 2
@@ -15698,7 +15698,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -15729,7 +15729,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "`keras`, `tensorflow`, 和 `mxnet` 都是R中可以用于深度学习的包。`rpart` 是用于构建决策树的包。",
       "score": 10.0,
       "type": 2
@@ -15760,7 +15760,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "`DISTINCT` 查询去重，主键约束防止插入重复，`GROUP BY + HAVING` 可识别并删除重复数据；更新操作本身不能直接处理重复。",
       "score": 10.0,
       "type": 2
@@ -15791,7 +15791,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "混淆矩阵不能直接计算AUC值。",
       "score": 10.0,
       "type": 2
@@ -15822,7 +15822,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "D不适用于评分卡。",
       "score": 10.0,
       "type": 2
@@ -15853,7 +15853,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,C",
       "analysis": "相关系数无单位，取值范围为 [-1, 1]；协方差有单位且受变量尺度影响。",
       "score": 10.0,
       "type": 2
@@ -15889,7 +15889,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "B,C,D",
       "analysis": "聚类模型存在初始值敏感、对某些形状无效、结果不易解释等问题；过拟合是监督学习的问题；聚类对数据分布非常敏感。",
       "score": 10.0,
       "type": 2
@@ -15920,7 +15920,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "处理缺失值、去除异常值和标准化数据都可以提高相关性分析的准确性，而增加数据量不一定能提高准确性。",
       "score": 10.0,
       "type": 2
@@ -15951,7 +15951,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "B,C",
       "analysis": "虽然散点图可以帮助推测变量间可能存在某种联系，但它并不能直接证明因果关系的存在。它可以辅助识别数据点是否形成特定群体以及计算两者之间的相关度指标。",
       "score": 10.0,
       "type": 2
@@ -15982,7 +15982,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "偏相关不能判断因果关系，只能衡量在控制其他变量后两个变量之间的相关性。",
       "score": 10.0,
       "type": 2
@@ -16013,7 +16013,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "D（批量处理）无法满足实时性要求。",
       "score": 10.0,
       "type": 2
@@ -16044,7 +16044,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "DBSCAN和Mean Shift是基于密度的聚类方法。",
       "score": 10.0,
       "type": 2
@@ -16075,7 +16075,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "对异常值应根据业务背景选择删除、替换或修正；直接忽略可能导致分析偏差。",
       "score": 10.0,
       "type": 2
@@ -16106,7 +16106,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -16137,7 +16137,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "所有选项都是回归模型中常见的统计问题，需通过诊断和修正来改善模型效果。",
       "score": 10.0,
       "type": 2
@@ -16168,7 +16168,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "B,C",
       "analysis": "并非所有重复数据都需要删除，是否删除取决于具体情境。",
       "score": 10.0,
       "type": 2
@@ -16199,7 +16199,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "压力测试需覆盖信用、市场、流动性、操作风险，战略风险不强制要求。",
       "score": 10.0,
       "type": 2
@@ -16235,7 +16235,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "《中华人民共和国民法典》第五百零八条规定，本编对合同的效力没有规定的，适用本法第一编第六章的有关规定。该法第一百四十六条规定，行为人与相对人以虚假的意思表示实施的民事法律行为无效。以虚假的意思表示隐藏的民事法律行为的效力，依照有关法律规定处理。该法第一百四十七条规定，基于重大误解实施的民事法律行为，行为人有权请求人民法院或者仲裁机构予以撤销。该法第一百五十一条规定，一方利用对方处于危困状态、缺乏判断能力等情形，致使民事法律行为成立时显失公平的，受损害方有权请求人民法院或者仲裁机构予以撤销。该法第一百五十三条规定，违反法律、行政法规的强制性规定的民事法律行为无效。但是，该强制性规定不导致该民事法律行为无效的除外。违背公序良俗的民事法律行为无效。该法第一百五十四条规定，行为人与相对人恶意串通，损害他人合法权益的民事法律行为无效。",
       "score": 10.0,
       "type": 2
@@ -16271,7 +16271,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,D,E",
       "analysis": "消费者有权要求银行在贷款申请阶段准确、全面地告知个贷产品的贷款条件、贷款期限、贷款利率、利率调整、还款方式、担保方式等贷款要素相关信息。",
       "score": 10.0,
       "type": 2
@@ -16307,7 +16307,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,E",
       "analysis": "监事会由职工代表出任的监事、股东大会选举的外部监事和股东监事组成。CD两项属于高级管理层的人员。",
       "score": 10.0,
       "type": 2
@@ -16343,7 +16343,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "财务公司资产类业务：一、对成员单位办理贷款二、对成员单位办理融资租赁三、办理成员单位产品的消费信贷业务四、办理成员单位产品的买方信贷五、成员单位产品的融资租赁业务六、同业业务七、投资业务",
       "score": 10.0,
       "type": 2
@@ -16379,7 +16379,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B,D,E",
       "analysis": "全部关联方授信总额 = 全部关联方授信余额 - 关联方提供的保证金存款 - 关联方质押的银行存单 - 我国中央政府债券。",
       "score": 10.0,
       "type": 2
@@ -16415,7 +16415,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B,E",
       "analysis": "选项A、C、D均属于法人信贷业务的操作风险控制措施。",
       "score": 10.0,
       "type": 2
@@ -16446,7 +16446,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -16477,7 +16477,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -16513,7 +16513,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,D,E",
       "analysis": "对通货膨胀的衡量可以通过一般物价水平上涨幅度的衡量来进行，一般说来，常用的指标有消费者物价指数、生产者物价指数、国内生产总值物价平减指数三种。",
       "score": 10.0,
       "type": 2
@@ -18062,7 +18062,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "B,C",
       "analysis": "逻辑回归和 SVM 是监督学习模型；K均值和 PCA 是无监督模型",
       "score": 10.0,
       "type": 2
@@ -18093,7 +18093,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "缺失值、异常值和非线性关系都可能影响相关系数的可靠性，而大数据集通常不会导致相关系数不可靠。",
       "score": 10.0,
       "type": 2
@@ -18124,7 +18124,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "随机森林通过Bagging方式构建多个决策树，每个树使用Bootstrap样本和随机选取的特征子集。",
       "score": 10.0,
       "type": 2
@@ -18160,7 +18160,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,E",
       "analysis": "聚类主要用于发现数据结构、辅助可视化以及对未标记数据进行分组，但不具备预测功能。",
       "score": 10.0,
       "type": 2
@@ -18191,7 +18191,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -18222,7 +18222,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "残差图主要用于检查线性关系和异方差性，D不属于检测共线性的工具。",
       "score": 10.0,
       "type": 2
@@ -18253,7 +18253,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,C,D",
       "analysis": "B错误，联邦学习通常增加计算开销。",
       "score": 10.0,
       "type": 2
@@ -18284,7 +18284,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "`plotly` 支持交互式图表、3D图表，并且可以嵌入网页中。它也支持动画功能。",
       "score": 10.0,
       "type": 2
@@ -18315,7 +18315,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "spaCy、NLTK、Transformers 和 TensorFlow 都可用于 NLP 任务。",
       "score": 10.0,
       "type": 2
@@ -18346,7 +18346,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,C",
       "analysis": "K-means和高斯混合模型都属于指定簇的聚类方法。",
       "score": 10.0,
       "type": 2
@@ -18377,7 +18377,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "`replace_na()` 可以指定列并替换多个 NA 值，但默认不会替换为 0，也不必须与 `dplyr` 一起使用。",
       "score": 10.0,
       "type": 2
@@ -18413,7 +18413,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,D,E",
       "analysis": "信用中介职能是商业银行最基本的职能。银行通过吸收存款，动员和集中社会上一切闲置的货币资本，然后又通过放款把这些货币资本贷方给需要资本的企业使用。这样，银行就成了货币资本的贷出者和借入者之间的中介人。银行作为信用中介，克服了企业之间直接借贷的种种局限性，如在资本数量、借贷时间、空间上不一致性及不了解信用能力等局限性。通过信用中介职能对资本进行再分配，使货币资本得到充分有效的运用，加速了资本的周转，促进了生产的发展。C 项是商业银行支付中介职能。",
       "score": 10.0,
       "type": 2
@@ -18444,7 +18444,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -18480,7 +18480,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B,C,D,E",
       "analysis": "公示催告期间，票据权利被冻结，不能承兑、不能付款、不能贴现、不能转让，有关当事人对票据的任何处分均没有法律效力。",
       "score": 10.0,
       "type": 2
@@ -18516,7 +18516,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,E",
       "analysis": "B项，内部人员空存实取盗取银行资金属于操作风险。C项，商业银行所设计的负债业务品种、条款或合同文本与现行法律法规不一致属于法律风险。D项，由于电脑故障造成业务中断属于信息科技风险。",
       "score": 10.0,
       "type": 2
@@ -18552,7 +18552,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B,C,D,E",
       "analysis": "公示催告期间，票据权利被冻结，不能承兑、不能付款、不能贴现、不能转让，有关当事人对票据的任何处分均没有法律效力。",
       "score": 10.0,
       "type": 2
@@ -18583,7 +18583,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,C,D",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -18614,7 +18614,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -18650,7 +18650,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B,C,D,E",
       "analysis": "私募基金需依法设立、向特定对象募集、不承诺保底收益且合法使用资金，公开宣传违反私募基金的非公开性要求，故排除",
       "score": 10.0,
       "type": 2
@@ -18686,7 +18686,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "B,C,D",
       "analysis": "商业银行应当根据本机构国别风险类型、暴露规模和复杂程度选择适当的计量方法。计量方法应当至少满足以下要求：能够覆盖所有重大风险暴露和不同类型的风险；能够在单一和并表层面按国别计量风险；能够根据有风险转移及无风险转移情况分别计量国别风险。",
       "score": 10.0,
       "type": 2
@@ -18722,7 +18722,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,D",
       "analysis": "理财师的专业能力可以概括为了解、分析客户的能力，投资理财产品选择、组合和理财规划的能力",
       "score": 10.0,
       "type": 2
@@ -18758,7 +18758,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "D,E",
       "analysis": "同业拆借市场有以下特征：①资金融通的期限较短，主要用于金融机构临时性资金需要；②同业拆借是在无担保条件下进行的资金与信用的直接交换，潜在信用风险较高，因此要求拆借主体具有较高的信用等级；③同业拆借形成的资金价值信号，反映了整个金融体系的资金供求状况和流动性状况，在货币政策传导和整个金融市场中起到基础性作用。",
       "score": 10.0,
       "type": 2
@@ -18794,7 +18794,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B,D,E",
       "analysis": "依据《行政诉讼法》的规定，行政诉讼参加人具体包括当事人、共同诉讼人、诉讼中的第三人和诉讼代理人。AC两项均属于行政复议参加人。",
       "score": 10.0,
       "type": 2
@@ -18830,7 +18830,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "E项，对于不具有市场支配地位的经营者，应允许其自主设置交易条件，购买者如不愿接受该条件，可以选择与其他经营者进行交易，这属于正常的市场交易活动，不宜予以干预。",
       "score": 10.0,
       "type": 2
@@ -18866,7 +18866,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B,C,D,E",
       "analysis": "董事会（不设董事会的公司为执行董事）是公司的经营决策机构，负责召集股东（大）会，并向股东（大）会报告工作；执行股东（大）会决议，负责公司日常经营决策；聘任或者解聘公司经理（总经理），制定公司基本管理制度。董事会必须对股东（大）会负责，接受股东（大）会监督。董事长由董事会选举产生。董事长主持股东（大）会，召集并主持董事会，在诉讼事务和非诉讼事务上对外均代表公司。A 项为股东（大）会的职责。",
       "score": 10.0,
       "type": 2
@@ -20226,7 +20226,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "`IS NULL` 用于判断，`COALESCE` 和 `IFNULL` 用于替换 NULL 值。`TRIM` 用于去除空格，不处理 NULL。",
       "score": 10.0,
       "type": 2
@@ -20257,7 +20257,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "DATE_TRUNC或EXTRACT提取时间单位，GROUP BY按时间分组，COUNT统计人数，组合使用即可分析时间分布。",
       "score": 10.0,
       "type": 2
@@ -20288,7 +20288,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "D属于分类任务，通常使用分类模型如卷积神经网络；A、B、C均为典型的回归或类回归分析场景。",
       "score": 10.0,
       "type": 2
@@ -20319,7 +20319,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,C",
       "analysis": "GROUP BY子句可以在不同地区或时间段等分组条件下计算相关性，而不是在整个数据集或单个特征上。",
       "score": 10.0,
       "type": 2
@@ -20350,7 +20350,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "所有选项均可用于识别或处理缺失值，帮助分析数据分布中的完整性。",
       "score": 10.0,
       "type": 2
@@ -20381,7 +20381,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "斯皮尔曼相关系数基于排序，因此对异常值不敏感，适用于非线性但单调的关系，且不要求数据服从正态分布。",
       "score": 10.0,
       "type": 2
@@ -20412,7 +20412,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -20443,7 +20443,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,C",
       "analysis": "图像分类和回归预测是有标签的监督学习任务；图像生成属于无监督/生成任务；聚类分析属于无监督学习。",
       "score": 10.0,
       "type": 2
@@ -20474,7 +20474,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,C",
       "analysis": "对于类别变量，可以使用卡方检验或斯皮尔曼等级相关系数。CORR()函数不适用于类别变量，将类别变量转换为数值变量后使用皮尔逊相关系数也不是最佳实践。",
       "score": 10.0,
       "type": 2
@@ -20510,7 +20510,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -20546,7 +20546,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "肘部法、轮廓图、AIC等可用于选择最佳簇数；交叉验证用于监督学习；信息增益比用于特征选择。",
       "score": 10.0,
       "type": 2
@@ -20577,7 +20577,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "LASSO、岭回归、随机森林和PCA都可以用于特征选择或降维。",
       "score": 10.0,
       "type": 2
@@ -20608,7 +20608,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "A/B/D均能统计各等级人数，C仅列出不同值但无频次信息",
       "score": 10.0,
       "type": 2
@@ -20639,7 +20639,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -20670,7 +20670,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,C",
       "analysis": "B可能是业务正常波动，D需根据基线判断。",
       "score": 10.0,
       "type": 2
@@ -20701,7 +20701,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "D错误，分类变量（如职业）可通过编码保留。",
       "score": 10.0,
       "type": 2
@@ -20737,7 +20737,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B,C,D,E",
       "analysis": "要选择最佳的还款方式，需要综合考虑借款人的收入水平、还款能力及借款额度、借款利率、借款期限、担保方式等方面情况。",
       "score": 10.0,
       "type": 2
@@ -20773,7 +20773,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,D,E",
       "analysis": "财务公司为我国公司金融发展作出了重大贡献，突出体现在五个方面：一是催生了大型企业的财团意识；二是节省了企业集团的融资成本；三是防控企业集团资金风险；四是促进企业集团的产品销售；五是丰富了金融机构体系。",
       "score": 10.0,
       "type": 2
@@ -20809,7 +20809,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "流动性风险管理政策和程序主要包括现金流测算和分析、早期预警、流动性风险限额管理、融资管理、日间流动性风险管理、压力测试、应急计划、优质流动性资产管理、并表及重要币种的流动性风险管理等内部管理制度。",
       "score": 10.0,
       "type": 2
@@ -20845,7 +20845,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "各项贷款包括融资租赁、贸易融资、票据融资、垫款等。保险公司存放属于存款范畴，故前四项正确",
       "score": 10.0,
       "type": 2
@@ -20881,7 +20881,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,C,D,E",
       "analysis": "B项，净稳定资金比率定义为可用稳定资金与所需稳定资金之比，这个比率必须大于100％。",
       "score": 10.0,
       "type": 2
@@ -20912,7 +20912,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,C,D",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -20948,7 +20948,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "C,E",
       "analysis": "在监管职责划分上，人民银行负责互联网支付业务的监督管理；原银监会负责包括个体网络借贷和网络小额贷款在内的网络借贷以及互联网信托和互联网消费金融的监督管理；证监会负责股权众筹融资和互联网基金销售的监督管理；银保监会负责互联网保险的监督管理。",
       "score": 10.0,
       "type": 2
@@ -20979,7 +20979,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -21015,7 +21015,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,D,E",
       "analysis": "为交易目的而持有的头寸包括自营业务、做市业务和代客买卖委托的头寸。",
       "score": 10.0,
       "type": 2
@@ -21051,7 +21051,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,C,E",
       "analysis": "速动资产 = 流动资产 - 存货（选项 B 错误）。利息保障倍数 =（税前净利润 + 利息费用）/ 利息费用（选项 D 错误）。",
       "score": 10.0,
       "type": 2
@@ -21087,7 +21087,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "《中华人民共和国民法典》第五百零八条规定，本编对合同的效力没有规定的，适用本法第一编第六章的有关规定。该法第一百四十六条规定，行为人与相对人以虚假的意思表示实施的民事法律行为无效。以虚假的意思表示隐藏的民事法律行为的效力，依照有关法律规定处理。该法第一百四十七条规定，基于重大误解实施的民事法律行为，行为人有权请求人民法院或者仲裁机构予以撤销。该法第一百五十一条规定，一方利用对方处于危困状态、缺乏判断能力等情形，致使民事法律行为成立时显失公平的，受损害方有权请求人民法院或者仲裁机构予以撤销。该法第一百五十三条规定，违反法律、行政法规的强制性规定的民事法律行为无效。但是，该强制性规定不导致该民事法律行为无效的除外。违背公序良俗的民事法律行为无效。该法第一百五十四条规定，行为人与相对人恶意串通，损害他人合法权益的民事法律行为无效。",
       "score": 10.0,
       "type": 2
@@ -21118,7 +21118,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -21154,7 +21154,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "公司具有法人资格，以自己的财产对外承担责任，公司股东对公司债务承担有限责任，不承担连带责任。",
       "score": 10.0,
       "type": 2
@@ -22504,7 +22504,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "`IS NULL` 和 `IS NOT NULL` 用于判断，`COUNT(字段名)` 可统计非空值数量，从而推断缺失值数量；`COALESCE` 主要用于替换。",
       "score": 10.0,
       "type": 2
@@ -22535,7 +22535,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "plt.figtitle() 并非标准函数，设置整体标题一般使用 plt.suptitle()。",
       "score": 10.0,
       "type": 2
@@ -22566,7 +22566,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "`dtypes`显示每列数据类型，`select_dtypes()`筛选特定类型列，`apply(type)`可查看具体元素类型。`isnull()`用于检测缺失值。",
       "score": 10.0,
       "type": 2
@@ -22597,7 +22597,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "B,C,D",
       "analysis": "A在类别不平衡时易失真。",
       "score": 10.0,
       "type": 2
@@ -22633,7 +22633,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -22664,7 +22664,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,C",
       "analysis": "在典型的树状结构里，除了根节点外，每个节点确实只有一个直接的上级节点，但这并不意味着所有叶子节点都会出现在同样的层级上，实际应用中可能存在不同的终止层。",
       "score": 10.0,
       "type": 2
@@ -22695,7 +22695,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "箱型图主要突出的是五数概括法中的关键参数——即最大值、最小值、第一四分位数(Q1)、第三四分位数(Q3)以及中位数(Median)，而不包括平均数。",
       "score": 10.0,
       "type": 2
@@ -22731,7 +22731,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,C,E",
       "analysis": "B错误，分类模型可以处理类别型特征；D错误，并非所有情况都必须使用交叉验证。",
       "score": 10.0,
       "type": 2
@@ -22762,7 +22762,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "C、D是分类模型的评估指标，A、B是回归模型常用的误差指标。",
       "score": 10.0,
       "type": 2
@@ -22793,7 +22793,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "柱状图、条形图和箱型图都适合展示分类数据，折线图更适合连续变量的趋势分析。",
       "score": 10.0,
       "type": 2
@@ -22829,7 +22829,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,D,E",
       "analysis": "黄金价格变动受多种因素影响，包括供求关系、均衡价格、通货膨胀、利率、汇率等",
       "score": 10.0,
       "type": 2
@@ -22865,7 +22865,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,D,E",
       "analysis": "商业银行应适当设置现金流缺口限额、负债集中度限额、集团内部交易和融资限额等表内外限额，加强融资渠道管理和融资抵押品管理，确保能够满足正常和压力情景下日间和不同期限的融资需求。",
       "score": 10.0,
       "type": 2
@@ -22901,7 +22901,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,C,D,E",
       "analysis": "区域劳动人口的数量会影响区域自然资源开发利用的规模（生产规模的大小），区域人口的素质会影响区域经济的发展水平和区域产业的构成状况，应重点分析人口的数量、素质、分布及其资源数量和分布及生产布局的适应性或协调性，区域适度人口的规模等问题。",
       "score": 10.0,
       "type": 2
@@ -22932,7 +22932,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -22963,7 +22963,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -22999,7 +22999,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "B,C",
       "analysis": "商业银行存放在中央银行的准备金包括法定存款准备金和超额存款准备金。",
       "score": 10.0,
       "type": 2
@@ -23035,7 +23035,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B,C,D,E",
       "analysis": "《人民币银行结算账户管理办法》第十三条规定，专用存款账户是存款人按照法律、行政法规和规章，对其特定用途资金进行专项管理和使用而开立的银行结算账户。对下列资金的管理与使用，存款人可以申请开立专用存款账户：①基本建设资金；②更新改造资金；③财政预算外资金；④粮、棉、油收购资金；⑤证券交易结算资金；⑥期货交易保证金；⑦信托基金；⑧金融机构存放同业资金；⑨政策性房地产开发资金；⑩单位银行卡备用金；⑪住房基金；⑫社会保障基金；⑬收入汇缴资金和业务支出资金；⑭党、团、工会设在单位的组织机构经费；⑮其他需要专项管理和使用的资金。",
       "score": 10.0,
       "type": 2
@@ -23066,7 +23066,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -23097,7 +23097,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -23969,7 +23969,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "GROUP BY** 用于分类统计，适合分析分布类问题；D选项为单一汇总，不涉及分布",
       "score": 10.0,
       "type": 2
@@ -24000,7 +24000,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "C错误，验证集必须独立。",
       "score": 10.0,
       "type": 2
@@ -24031,7 +24031,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "这些都是导致缺失值的常见原因。",
       "score": 10.0,
       "type": 2
@@ -24067,7 +24067,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "箱线图、直方图和密度图均可用于展示数据分布；折线图一般用于时间序列；气泡图用于三变量关系。",
       "score": 10.0,
       "type": 2
@@ -24103,7 +24103,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "直方图适用于连续变量，通过调整bin数量可以观察不同分布细节，并可能识别出极端值或离群点。",
       "score": 10.0,
       "type": 2
@@ -24134,7 +24134,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "DISTINCT只是去重，无法统计频次；GROUP BY则可以配合COUNT等函数进行分布分析",
       "score": 10.0,
       "type": 2
@@ -24165,7 +24165,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "CORR()函数直接计算皮尔逊相关系数，而COVAR_POP()可以用于计算协方差，进而计算相关系数。STDDEV_POP()和VARIANCE()虽然提供了标准差和方差的信息，但不能直接用于计算相关系数。",
       "score": 10.0,
       "type": 2
@@ -24196,7 +24196,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -24232,7 +24232,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,C,D",
       "analysis": "当某一时段内的资产(包括表外业务头寸)  大于负债时，就产生了正缺口，即资产敏感性缺口，此时，市场利率下降 会导致银行的净利息收入下降。相反，当某一时段内的负债大于资产(包括表外业务头寸) 时，就产生了负缺口，即负债敏感 性缺口，此时，市场利率上升会导致银行的净利息收入下降。当资产负债的缺口为0时，无论利率如何变动，净利息收入不变，也就是利率风险暴露为0时，不存在利率风险。",
       "score": 10.0,
       "type": 2
@@ -24263,7 +24263,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -24299,7 +24299,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,D,E",
       "analysis": "按信托财产的不同，可将信托划分为动产信托、不动产信托、其他财产信托、资金信托等。法人信托是按照委托人的身份划分的",
       "score": 10.0,
       "type": 2
@@ -24330,7 +24330,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -24361,7 +24361,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,C,D",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -24397,7 +24397,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,C,D",
       "analysis": "资产敏感性缺口：利率上升→净利息收入增加，利率下降→净利息收入减少（选项 B 错误）。负债敏感性缺口：利率上升→净利息收入减少，利率下降→净利息收入增加（选项 E 错误）。",
       "score": 10.0,
       "type": 2
@@ -24428,7 +24428,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,D",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -24459,7 +24459,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -24495,7 +24495,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "授信限额需考虑客户债务承受能力和银行损失承受能力，客户盈利能力、净利润率是评估依据而非直接因素，银行速动比率与客户授信无关",
       "score": 10.0,
       "type": 2
@@ -24526,7 +24526,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -24562,7 +24562,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "C,D,E",
       "analysis": "个人保证贷款手续简便，只要保证人愿意提供保证，银行经过核保认定保证人具有保证能力，签订保证合同即可，整个过程涉及银行、借款人和担保人三方，贷款办理时间短，环节少。",
       "score": 10.0,
       "type": 2
@@ -24593,7 +24593,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,D",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -24629,7 +24629,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "B,C,D",
       "analysis": "国家风险暴露包含一个国家的信用风险暴露、跨境转移风险以及高压力风险事件情景。",
       "score": 10.0,
       "type": 2
@@ -25563,7 +25563,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,C,D",
       "analysis": "PyTorch、Keras 和 TensorFlow 均支持 GAN 的构建，Scikit-learn 不支持。",
       "score": 10.0,
       "type": 2
@@ -25594,7 +25594,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "金融场景需兼顾技术性能与业务合规。",
       "score": 10.0,
       "type": 2
@@ -25630,7 +25630,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,D,E",
       "analysis": "逻辑回归本质上线性，难以直接处理非线性边界，除非结合核技巧。",
       "score": 10.0,
       "type": 2
@@ -25661,7 +25661,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,C",
       "analysis": "`unique()` 和 `subset()` 不直接用于检测重复数据。",
       "score": 10.0,
       "type": 2
@@ -25697,7 +25697,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "箱线图适用于数值型数据，能够清晰展示五数概括、离群点及组间差异。",
       "score": 10.0,
       "type": 2
@@ -25728,7 +25728,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "线性回归、支持向量机和决策树都是监督学习模型。K均值聚类是非监督学习模型。",
       "score": 10.0,
       "type": 2
@@ -25759,7 +25759,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "`.corr()` 支持 `'pearson'`, `'spearman'`, `'kendall'` 三种方法，不支持 `'anova'`。",
       "score": 10.0,
       "type": 2
@@ -25790,7 +25790,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "A和C是Pandas方法，B是标准库方法，都能实现字符串到时间对象的转换。D是格式化输出，不是转换。",
       "score": 10.0,
       "type": 2
@@ -25821,7 +25821,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "Matplotlib 默认不支持中文，需要手动设置字体。",
       "score": 10.0,
       "type": 2
@@ -25852,7 +25852,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "C错误，身份证号需哈希或删除。",
       "score": 10.0,
       "type": 2
@@ -25888,7 +25888,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,C,E",
       "analysis": "《巴塞尔协议Ⅲ》提高资本充足率监管标准。明确了三个层次的最低资本要求：核心一级资本充足率为4.5%，一级资本充足率为6%，总资本充足率为8%，并规定商业银行资本充足率不得低于最低资本要求。补充设置了2.5%的储备资本要求，用以应对严重经济衰退带来的损失（D项说法错误）。补充设置0～2.5%的逆周期资本要求，在经济上行期提取，用于在经济下行期吸收损失（B项说法错误）。此外，对全球系统重要性银行，按照其系统重要性程度，附加资本要求为1%～3.5%。一级资本应能够在银行持续经营条件下吸收损失，其中普通股(含留存收益)应在一级资本中占主导地位；二级资本仅在银行破产清算条件下承担损失。",
       "score": 10.0,
       "type": 2
@@ -25919,7 +25919,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -25955,7 +25955,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,D,E",
       "analysis": "商业银行对质押担保应重点关注以下事项：①可以作为质物的动产/权利范围及种类。②质押合同应详细记载：被担  保的主债权种类、数额；债务的期限；质物的名称、数量、质量、状况；质押担保的范围；质物移交的时间；当事人认为需要 约定的其他事项等。③质权人对质物承担的权利、义务和责任。④权利质押的生效及转让。⑤债务履行期届满时质物的处理等。",
       "score": 10.0,
       "type": 2
@@ -25991,7 +25991,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,D,E",
       "analysis": "个人征信系统所收集的个人信用信息包括个人基本信息、信用交易信息、特殊交易信息、特别记录和客户本人声明等各类信息。",
       "score": 10.0,
       "type": 2
@@ -26022,7 +26022,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -26058,7 +26058,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,D,E",
       "analysis": "银行信息披露内容按安全性、流动性、效益性确定，风险性和审慎性是披露的原则而非确定内容的维度",
       "score": 10.0,
       "type": 2
@@ -26089,7 +26089,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "B,C,D",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -26125,7 +26125,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "银行监管的公开原则是指监管活动除法律规定需要保密的以外，应当具有适当透明度。公开原则主要有三个方面的内容：一是监管立法和政策标准公开；二是监管执法和行为标准公开；三是行政复议的依据、标准、程序公开。管理行为、行政 复议结果公开不属于公开原则的内容。",
       "score": 10.0,
       "type": 2
@@ -26156,7 +26156,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -26192,7 +26192,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "外部审计不直接鼓励创新或限制资产规模（选项 D、E 错误）。",
       "score": 10.0,
       "type": 2
@@ -26228,7 +26228,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "最具流动性的资产包括现金、央行可抵押的政府债券（选项 C、D、E 流动性较低）。",
       "score": 10.0,
       "type": 2
@@ -26264,7 +26264,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B,C,D,E",
       "analysis": "《人民币银行结算账户管理办法》第十三条规定，专用存款账户是存款人按照法律、行政法规和规章，对其特定用途资金进行专项管理和使用而开立的银行结算账户。对下列资金的管理与使用，存款人可以申请开立专用存款账户：①基本建设资金；②更新改造资金；③财政预算外资金；④粮、棉、油收购资金；⑤证券交易结算资金；⑥期货交易保证金；⑦信托基金；⑧金融机构存放同业资金；⑨政策性房地产开发资金；⑩单位银行卡备用金；⑪住房基金；⑫社会保障基金；⑬收入汇缴    资金和业务支出资金；⑭党、团、工会设在单位的组织机构经费；⑮其他需要专项管理和使用的资金。",
       "score": 10.0,
       "type": 2
@@ -26867,7 +26867,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "C更适合时序模型，D通常用结构化数据。",
       "score": 10.0,
       "type": 2
@@ -26898,7 +26898,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "这些函数都属于 tidyverse，可用于数据清洗。",
       "score": 10.0,
       "type": 2
@@ -26929,7 +26929,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "`get_dummies`和`OneHotEncoder`支持多列编码，`OrdinalEncoder`也可处理多列有序类别。`LabelEncoder`只能处理单列。",
       "score": 10.0,
       "type": 2
@@ -26960,7 +26960,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "尽管热力图功能强大，但其创建往往需要借助专业的软件或编程技能，所以选项C并不成立。",
       "score": 10.0,
       "type": 2
@@ -26991,7 +26991,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "所有列出的聚类算法都可以用于客户细分任务，具体取决于数据特性和业务需求。",
       "score": 10.0,
       "type": 2
@@ -27027,7 +27027,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,D,E",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -27063,7 +27063,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "K-means对异常值敏感，需指定K值，使用平方误差最小化作为目标函数，不适合非凸形簇，也不是基于密度的算法。",
       "score": 10.0,
       "type": 2
@@ -27094,7 +27094,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "四种方法均可提取季度信息并用于趋势分析",
       "score": 10.0,
       "type": 2
@@ -27125,7 +27125,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "超参数是在训练前设定的参数，包括学习率、批大小、权重初始化方式、激活函数类型等。",
       "score": 10.0,
       "type": 2
@@ -27156,7 +27156,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "二级资本工具需期限≥5 年且能吸收损失，无固定到期日是一级资本特征。",
       "score": 10.0,
       "type": 2
@@ -27192,7 +27192,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "影响房地产价格的社会因素包括社会治安状况、居民法律意识、投机状况、社会偏好等。土地制度属于行政因素",
       "score": 10.0,
       "type": 2
@@ -27228,7 +27228,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,D,E",
       "analysis": "商业银行可以经营下列部分或者全部业务：①吸收公众存款；②发放短期、中期和长期贷款；③办理国内外结算；④办理票据承兑与贴现；⑤发行金融债券；⑥代理发行、代理兑付、承销政府债券；⑦买卖政府债券、金融债券；⑧从事同业拆借；⑨买卖、代理买卖外汇；⑩从事银行卡业务；⑪提供信用证服务及担保；⑫代理收付款项及代理保险业务；⑬提供保管箱服务；⑭经国务院银行业监督管理机构批准的其他业务。经营范围由商业银行章程规定，报国务院银行业监督管理机构批准。",
       "score": 10.0,
       "type": 2
@@ -27264,7 +27264,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,E",
       "analysis": "行政复议的作用包括解决行政争议、监督行政行为、提供行政救济。其不能随意执行行政决定或代替监管机构权力，故前两项和第五项正确",
       "score": 10.0,
       "type": 2
@@ -27300,7 +27300,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B,C,D,E",
       "analysis": "要选择最佳的还款方式，需要综合考虑借款人的收入水平、还款能力及借款额度、借款利率、借款期限、担保方式等方面情况。",
       "score": 10.0,
       "type": 2
@@ -27336,7 +27336,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,D,E",
       "analysis": "国债的风险包括价格风险、违约风险（极低）、再投资风险、提前偿付风险、赎回风险、通货膨胀风险等",
       "score": 10.0,
       "type": 2
@@ -27372,7 +27372,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "B,C,D",
       "analysis": "账面资本与风险相关（选项 A 错误）。账面资本≠经济资本（选项 E 错误）。",
       "score": 10.0,
       "type": 2
@@ -27408,7 +27408,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,E",
       "analysis": "单一监管周期包括制订监管计划、日常监测分析、风险评估、现场检查联动、监管评级和监管总结六个环节，形成持续性的非现场监管循环。",
       "score": 10.0,
       "type": 2
@@ -27439,7 +27439,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "B,C,D",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -27475,7 +27475,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,D,E",
       "analysis": "巴塞尔委员会将银行资产按流动性分为四类：最具流动性资产、其他可交易证券、可出售贷款组合、流动性最差资产，无 “流动性一般的资产” 分类",
       "score": 10.0,
       "type": 2
@@ -27511,7 +27511,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B,C,E",
       "analysis": "综合化经营按股权架构分为金融控股公司模式、银行母公司模式、全能银行模式，国有控股公司模式和金融机构联营模式不属于此分类",
       "score": 10.0,
       "type": 2
@@ -28280,7 +28280,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "C不适合时序数据，常用于文本分类。",
       "score": 10.0,
       "type": 2
@@ -28311,7 +28311,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "`confusion_matrix()` 用于分类模型评估，不用于计算相关性。",
       "score": 10.0,
       "type": 2
@@ -28342,7 +28342,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "推荐系统可使用协同过滤、矩阵分解、深度学习等多种模型。",
       "score": 10.0,
       "type": 2
@@ -28378,7 +28378,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,D,E",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -28409,7 +28409,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,C",
       "analysis": "线性回归模型简单、易于理解和实现，但对异常值敏感，也不适用于非线性关系。",
       "score": 10.0,
       "type": 2
@@ -28445,7 +28445,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,D,E",
       "analysis": "这些库在Python中广泛用于数据处理、分析和可视化。",
       "score": 10.0,
       "type": 2
@@ -28476,7 +28476,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "C错误，二者互补。",
       "score": 10.0,
       "type": 2
@@ -28507,7 +28507,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "`pdf()`、`png()` 和 `jpeg()` 是基础绘图系统中用于保存图形的函数，而 `ggsave()` 是 `ggplot2` 中用于保存图形的函数。",
       "score": 10.0,
       "type": 2
@@ -28543,7 +28543,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,C,E",
       "analysis": "贷款重组主要包括但不限于以下措施：(1)调整信贷产品，包括从高风险品种调整为低风险品种，从有信用风险品  种调整为无信用风险品种，从项目贷款调整为周转性贷款，从无贸易背景的品种调整为有贸易背景的品种，从部分保证的品种 调整为100％保证金业务品种或贴现。(2)减少贷款额度。(3)调整贷款期限(贷款展期或缩短贷款期限) 。(4)调整贷款 利率。(5)增加控制措施，限制企业经营活动。B项，如果企业设有董事长，判断应为有限责任公司或股份有限公司，董事长为企业投资者，对企业债务负有限责任，银行无权要求董事长以其出资额以外的个人住房作抵押品。D项，将抵押贷款调整为信用贷款会增加信用风险。",
       "score": 10.0,
       "type": 2
@@ -28579,7 +28579,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,D,E",
       "analysis": "商业银行理财产品可以投资于国债、地方政府债券、中央银行票据、政府机构债券、金融债券、银行存款、大额存单、同业存单、公司信用类债券、在银行间市场和证券交易所市场发行的资产支持证券、公募证券投资基金、其他债权类资产、权益类资产以及国务院银行业监督管理机构认可的其他资产。",
       "score": 10.0,
       "type": 2
@@ -28615,7 +28615,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,D,E",
       "analysis": "市场流动性收紧时，是未能以公允价值变现或质押资产（选项 C 错误）。",
       "score": 10.0,
       "type": 2
@@ -28651,7 +28651,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "D,E",
       "analysis": "贷款分类综合考虑客户信用风险和债项交易损失（选项 A 正确，非错误）。贷款分类主要用于贷后管理（选项 C 正确，非错误）。选项 D、E 是债项评级的特点，属于贷款分类的错误说法。",
       "score": 10.0,
       "type": 2
@@ -28687,7 +28687,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "外汇敞口按敞口定义分为单币种敞口头寸和总敞口头寸，按业务活动分为交易性和非交易性，多币种敞口头寸不属于标准分类",
       "score": 10.0,
       "type": 2
@@ -28723,7 +28723,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,E",
       "analysis": "银行资本的作用主要有以下四项：①为银行提供融资；②吸收和消化损失；③限制业务过度扩张；④维持市场信心。",
       "score": 10.0,
       "type": 2
@@ -28759,7 +28759,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,E",
       "analysis": "长期结构性分析关注稳定的存款基础和合理的资产负债期限错配（选项 B、C、D 属于短期流动性管理内容）。",
       "score": 10.0,
       "type": 2
@@ -29548,7 +29548,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "B,D",
       "analysis": "`LabelEncoder`不能处理缺失值，编码后的结果可能误导模型认为存在顺序关系，不适合有序类别。",
       "score": 10.0,
       "type": 2
@@ -29579,7 +29579,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "决策树、SVM、朴素贝叶斯在小数据集上表现较好；深度神经网络通常需要大量数据才能有效训练。",
       "score": 10.0,
       "type": 2
@@ -29610,7 +29610,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "多项式回归通过构造高次项来拟合非线性关系，容易过拟合，通常需要进行特征缩放。",
       "score": 10.0,
       "type": 2
@@ -29641,7 +29641,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "D是合理操作；A/B涉嫌歧视，C违反公平性原则。",
       "score": 10.0,
       "type": 2
@@ -29672,7 +29672,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -29703,7 +29703,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "操作风险包括内部/外部欺诈、系统故障等，市场波动属于市场风险。",
       "score": 10.0,
       "type": 2
@@ -29734,7 +29734,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -29770,7 +29770,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,D,E",
       "analysis": "对通货膨胀的衡量可以通过一般物价水平上涨幅度的衡量来进行，一般说来，常用的指标有消费者物价指数、生产者物价指数、国内生产总值物价平减指数三种。",
       "score": 10.0,
       "type": 2
@@ -29806,7 +29806,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,D,E",
       "analysis": "为交易目的而持有的头寸是指短期内有目的地持有以便销售，或从实际或预期的短期价格波动中获利，或锁定套利的头寸，包括自营业务、做市业务和为执行客户买卖委托的代客业务而持有的头寸。",
       "score": 10.0,
       "type": 2
@@ -29842,7 +29842,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,C,E",
       "analysis": "商业银行理财产品可以投资于国债、地方政府债券、中央银行票据、政府机构债券、金融债券、银行存款、大额存单、同业存单、公司信用类债券、在银行间市场和证券交易所市场发行的资产支持证券、公募证券投资基金、其他债权类资产、权益类资产以及国务院银行业监督管理机构认可的其他资产。商业银行理财产品不得直接投资于信贷资产，不得直接或间接投资于本行信贷资产，不得直接或间接投资于本行或其他银行业金融机构发行的理财产品，不得直接或间接投资于本行发行的次级档信贷资产支持证券。",
       "score": 10.0,
       "type": 2
@@ -29873,7 +29873,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -29909,7 +29909,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "B,D",
       "analysis": "遵守反洗钱、反恐怖融资规定要求银行业从业人员应当遵守反洗钱、反恐怖融资有关规定，熟知银行承担的义务，严格按照要求落实报告大额和可疑交易等工作。",
       "score": 10.0,
       "type": 2
@@ -29945,7 +29945,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,C,D,E",
       "analysis": "对于抵（质）押担保，商业银行通常在综合考虑抵（质）押品种类、变现能力、预计变现费用、价值稳定性等因素的基础上，确定抵（质）押率。",
       "score": 10.0,
       "type": 2
@@ -30516,7 +30516,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "Prophet、statsmodels、scikit-learn 和 TensorFlow 都可用于时间序列建模。",
       "score": 10.0,
       "type": 2
@@ -30547,7 +30547,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "文本分类一般使用 TF-IDF 或词嵌入，相关性分析较少用于此领域。",
       "score": 10.0,
       "type": 2
@@ -30578,7 +30578,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,C,D",
       "analysis": "`theme()` 是自定义主题样式的函数，而 `theme_bw()` 和 `theme_minimal()` 是预设的主题样式函数。",
       "score": 10.0,
       "type": 2
@@ -30614,7 +30614,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "B,C,D",
       "analysis": "账面资本虽然不和风险直接挂钩，但是风险带来的任何损失最终都会反映在账面上。故A项错误。经济资本又称为风 险资本，是指在一定的置信度和期限下，为了覆盖和抵御银行超出预期的经济损失(即非预期损失) 所需要持有的资本数额，是银行抵补风险所要求拥有的资本，并不必然等同于银行所持有的会计资本，可能大于账面资本，也可能小于账面资本。故E项错误。",
       "score": 10.0,
       "type": 2
@@ -30650,7 +30650,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "银行在发行理财产品过程中，发布的产品目标客户信息包括客户资产规模、客户在银行的等级、客户风险承受能力等。客户信誉情况和从事的职业不属于目标客户信息",
       "score": 10.0,
       "type": 2
@@ -30681,7 +30681,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -30717,7 +30717,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B,C,D,E",
       "analysis": "政治、经济和社会环境变化属于外部因素，不是战略风险的主要体现（选项 A 错误）。",
       "score": 10.0,
       "type": 2
@@ -30753,7 +30753,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "目前，能够发挥世界货币职能的货币主要有美元、欧元、英镑、日元等。",
       "score": 10.0,
       "type": 2
@@ -30789,7 +30789,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B,E",
       "analysis": "提高信贷人员素质、法律介入、信贷电子化建设属于法人信贷业务操作风险控制措施（选项 A、C、D 错误）。",
       "score": 10.0,
       "type": 2
@@ -30825,7 +30825,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,C,E",
       "analysis": "授信对象应多样化以分散风险（选项 B 错误）。多样化投资分散风险的前提是有足够多的相互独立的投资形式（选项 D 错误）。",
       "score": 10.0,
       "type": 2
@@ -30861,7 +30861,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,D,E",
       "analysis": "《中华人民共和国银行业监督管理法》第三十七条规定，银行业金融机构违反审慎经营规则的，国务院银行业监督管理机构或者其省一级派出机构应当责令限期改正；逾期未改正的，或者其行为严重危及该银行业金融机构的稳健运行、损害存款人和其他客户合法权益的，经国务院银行业监督管理机构或者其省一级派出机构负责人批准，可以区别情形，采取下列措施：①责令暂停部分业务、停止批准开办新业务；②限制分配红利和其他收入；③限制资产转让；④责令控股股东转让股权或者限制有关股东的权利；⑤责令调整董事、高级管理人员或者限制其权利；⑥停止批准增设分支机构。",
       "score": 10.0,
       "type": 2
@@ -30892,7 +30892,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "对公客户评级需综合财务、行业、管理、担保等因素。",
       "score": 10.0,
       "type": 2
@@ -30928,7 +30928,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,D,E",
       "analysis": "附加刑是指刑法规定的补充主刑适用的刑罚方法。附加刑包括以下几种：①罚金；②剥夺政治权利；③没收财产；④驱逐出境。",
       "score": 10.0,
       "type": 2
@@ -30959,7 +30959,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -30990,7 +30990,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "B,C,D",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -31716,7 +31716,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "D可能加剧过拟合。",
       "score": 10.0,
       "type": 2
@@ -31747,7 +31747,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "BERT、LSTM和Transformer广泛应用于NLP任务；AlexNet是图像分类模型。",
       "score": 10.0,
       "type": 2
@@ -31778,7 +31778,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "卡方检验用于分类变量，不属于相关性分析方法；其余均为相关性方法。",
       "score": 10.0,
       "type": 2
@@ -31814,7 +31814,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,E",
       "analysis": "线性回归模型的核心假设之一是自变量和因变量之间存在线性关系，这是模型成立的基础。多元回归的定义是包含两个或多个自变量，但因变量只能有一个，用于研究多个因素对单一结果的影响。R² 值越大表示模型解释因变量变异的比例越高，但并非绝对越好。过度拟合时，R² 可能很高，但模型泛化能力差，且忽略了变量的实际意义和模型简洁性。logistic 回归主要适用于二分类因变量。多分类因变量需使用多分类 logistic 回归等特殊扩展形式，并非基础 logistic 回归的适用场景。残差的定义即为实际观测值与模型预测值之间的差值，是评估模型拟合效果的重要指标。",
       "score": 10.0,
       "type": 2
@@ -31850,7 +31850,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B,C,E",
       "analysis": "案件风险率、操作风险经济资本率属于操作风险指标（选项 A、D 错误）。",
       "score": 10.0,
       "type": 2
@@ -31881,7 +31881,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -31917,7 +31917,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "B,D",
       "analysis": "董事会负责审议外包范围、审阅外包报告，制定政策、确定范围及团队职责属于高级管理层职责，故第二项和第四项正确",
       "score": 10.0,
       "type": 2
@@ -31953,7 +31953,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,E",
       "analysis": "贷款承诺业务的主要风险点包括：①政策性风险；②不正当竞争风险；③项目评估风险；④操作性风险。",
       "score": 10.0,
       "type": 2
@@ -31984,7 +31984,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -32758,7 +32758,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "B,C,D",
       "analysis": "模糊聚类允许样本部分属于多个簇，使用隶属度函数，是K-means的推广，适用于连续数据。",
       "score": 10.0,
       "type": 2
@@ -32789,7 +32789,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "精确率、召回率、F1 分数是分类问题中的核心指标；R² 分数用于回归问题。",
       "score": 10.0,
       "type": 2
@@ -32825,7 +32825,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -32856,7 +32856,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,C,D",
       "analysis": "决策树、神经网络、RBF核的SVM均为非线性分类器；逻辑回归是线性分类器。",
       "score": 10.0,
       "type": 2
@@ -32892,7 +32892,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,D,E",
       "analysis": "C会加剧过拟合，不是缓解手段。",
       "score": 10.0,
       "type": 2
@@ -32923,7 +32923,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "Matplotlib、Seaborn 和 Pyecharts 都可以通过设置字体支持中文，Plotly 默认不支持中文显示，需额外配置。",
       "score": 10.0,
       "type": 2
@@ -32959,7 +32959,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "公司具有法人资格，以自己的财产对外承担责任，公司股东对公司债务承担有限责任，不承担连带责任。",
       "score": 10.0,
       "type": 2
@@ -32995,7 +32995,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,C,D,E",
       "analysis": "A项，担保贷款是指由借款人或第三方依法提供担保而发放的贷款，包括保证贷款、抵押贷款、质押贷款。B项，贴现不是银行的表外业务。C项，短期贷款一般是指贷款期限在1年以内(含1年)的贷款。D项，流动资金贷款用途限于借款人日常生产经营周转，原料采购属于企业的日常生产经营。E项，银行承兑汇票属于银行的表外业务。",
       "score": 10.0,
       "type": 2
@@ -33031,7 +33031,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "B,C",
       "analysis": "商业银行存放在中央银行的准备金包括法定存款准备金和超额存款准备金。",
       "score": 10.0,
       "type": 2
@@ -33062,7 +33062,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -33093,7 +33093,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -33129,7 +33129,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,D,E",
       "analysis": "金融资产管理公司在内部控制方面遵循的总体原则是“评处分离、审处分离、集体审查、分级批准、上报备案”。",
       "score": 10.0,
       "type": 2
@@ -33165,7 +33165,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "B,D",
       "analysis": "遵守反洗钱、反恐怖融资规定要求银行业从业人员应当遵守反洗钱、反恐怖融资有关规定，熟知银行承担的义务，严格按照要求落实报告大额和可疑交易等工作。",
       "score": 10.0,
       "type": 2
@@ -33201,7 +33201,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,C,E",
       "analysis": "商业银行在识别和分析贷款风险时，系统性风险主要包括宏观经济因素、行业风险和区域风险。",
       "score": 10.0,
       "type": 2
@@ -33741,7 +33741,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "图像分类、自然语言处理和语音识别是深度学习广泛应用的领域。数据库查询优化属于传统计算机科学任务。",
       "score": 10.0,
       "type": 2
@@ -33772,7 +33772,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -33803,7 +33803,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "所有选项均可用于分析score的分布情况**，包括集中趋势、离散程度、频次分布及缺失值情况。",
       "score": 10.0,
       "type": 2
@@ -33834,7 +33834,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "所有这些函数都可以用于设置坐标轴的范围，但它们的作用方式略有不同。",
       "score": 10.0,
       "type": 2
@@ -33870,7 +33870,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "B,C",
       "analysis": "商业银行存放在中央银行的准备金包括法定存款准备金和超额存款准备金。",
       "score": 10.0,
       "type": 2
@@ -33901,7 +33901,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "二级资本工具需期限≥5年且能吸收损失，无固定到期日是一级资本特征。",
       "score": 10.0,
       "type": 2
@@ -33937,7 +33937,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,D,E",
       "analysis": "信托公司股东不得有下列行为：（1）虚假出资、出资不实、抽逃出资或变相抽逃出资；（2）利用股东地位牟取不当利益；（3）直接或间接干涉信托公司的日常经营管理；（4）要求信托公司作出最低回报或分红承诺；（5）要求信托公司为其提供担保；（6）与信托公司违规开展关联交易；（7）挪用信托公司固有财产或信托财产；（8）通过股权托管、信托文件、秘密协议等形式处分其出资；（9）损害信托公司、其他股东和受益人合法权益的其他行为。",
       "score": 10.0,
       "type": 2
@@ -33968,7 +33968,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "同业、理财、衍生品等高风险业务需专项管理，存款业务风险较低。",
       "score": 10.0,
       "type": 2
@@ -33999,7 +33999,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,C,D",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -34030,7 +34030,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -34066,7 +34066,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,D,E",
       "analysis": "金融资产管理公司不得向下列人员转让不良资产：国家公务员、金融监管机构工作人员、政法干警、金融资产管理公司工作人员、国有企业债务人管理层以及参与资产处置工作的律师、会计师、评估师等中介机构人员等关联人。",
       "score": 10.0,
       "type": 2
@@ -34102,7 +34102,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "C,D,E",
       "analysis": "巴塞尔委员会鼓励用内部评级法计量违约概率、违约风险暴露、违约损失率，以此计算信用风险监管资本，坏账损失和资产负债率不属于核心计量指标",
       "score": 10.0,
       "type": 2
@@ -34445,7 +34445,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,C",
       "analysis": "热力图适用于展示两个变量之间的相关性以及矩阵数据，通常通过颜色的深浅来表示数值的大小。",
       "score": 10.0,
       "type": 2
@@ -34476,7 +34476,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "`boxplot()` 是基础绘图系统中的函数，`geom_boxplot()` 是 `ggplot2` 中的函数，通常需要结合 `ggplot()` 使用。",
       "score": 10.0,
       "type": 2
@@ -34507,7 +34507,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "B,C",
       "analysis": "随机森林和AdaBoost等集成方法对类别不平衡问题有更好的鲁棒性；SVM和逻辑回归需要特别调整（如加权损失）才能应对不平衡。",
       "score": 10.0,
       "type": 2
@@ -34543,7 +34543,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B,D,E",
       "analysis": "《中华人民共和国银行业监督管理法》第四十二条规定，银行业监督管理机构依法对银行业金融机构进行检查时，经设区的市一级以上银行业监督管理机构负责人批准，可以对与涉嫌违法事项有关的单位和个人采取下列措施：①询问有关单位或者个人，要求其对有关情况作出说明；②查阅、复制有关财务会计、财产权登记等文件、资料；③对可能被转移、隐匿、毁损或者伪造的文件、资料，予以先行登记保存。",
       "score": 10.0,
       "type": 2
@@ -34579,7 +34579,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,C",
       "analysis": "国别限额类型包括敞口限额和经济资本限额。",
       "score": 10.0,
       "type": 2
@@ -34615,7 +34615,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,D,E",
       "analysis": "附加刑是指刑法规定的补充主刑适用的刑罚方法。附加刑包括以下几种：①罚金；②剥夺政治权利；③没收财产；④驱逐出境。",
       "score": 10.0,
       "type": 2
@@ -34646,7 +34646,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -34677,7 +34677,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -34713,7 +34713,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,D,E",
       "analysis": "保证合同的内容包括被保证的主债权种类、数额，债务人履行债务的期限，保证的方式、范围、期间等条款。",
       "score": 10.0,
       "type": 2
@@ -34749,7 +34749,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "信息披露应与银行的经营特点相适应，原则是：侧重披露总量指标、谨慎披露结构指标和暂不披露机密指标。",
       "score": 10.0,
       "type": 2
@@ -35258,7 +35258,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,C,D",
       "analysis": "ResNet、MobileNet和VGG均为典型的卷积神经网络结构，LSTM是循环神经网络的一种。",
       "score": 10.0,
       "type": 2
@@ -35289,7 +35289,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,C",
       "analysis": "A和C在遇到非法值或缺失值时会报错，除非设置`errors='ignore'`或使用更健壮的转换函数。",
       "score": 10.0,
       "type": 2
@@ -35320,7 +35320,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "C非必需环节，建模可仅用自有数据。",
       "score": 10.0,
       "type": 2
@@ -35351,7 +35351,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "使用 WHERE 子句筛选有效数据（如排除空值、异常值）能保证相关性分析的准确性，使用CORR()函数计算相关系数，并使用GROUP BY quarter按季度分组。",
       "score": 10.0,
       "type": 2
@@ -35382,7 +35382,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -35418,7 +35418,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,C,E",
       "analysis": "选项B，速动资产=流动资产-存货。选项D，利息偿付比率(利息保障倍数) = (税前净利润+利息费用) /利息费用 = (经营活动现金流量+利息费用+所得税) /利息费用=[ (净利润+折旧+无形资产摊销) +利息费用+所得税]/利息费用。",
       "score": 10.0,
       "type": 2
@@ -35454,7 +35454,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,C,D,E",
       "analysis": "《商业银行内部控制指引》结合商业银行实际，确定了商业银行内部控制的四个目标。（一）保证国家有关法律法规及规章的贯彻执行（二）保证商业银行发展战略和经营目标的实现（三）保证商业银行风险管理的有效性（四）保证商业银行业务记录、会计信息、财务信息和其他管理信息的真实、准确、完整和及时",
       "score": 10.0,
       "type": 2
@@ -35490,7 +35490,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B,C,D,E",
       "analysis": "《人民币银行结算账户管理办法》第十三条规定，专用存款账户是存款人按照法律、行政法规和规章，对其特定用途资金进行专项管理和使用而开立的银行结算账户。对下列资金的管理与使用，存款人可以申请开立专用存款账户：①基本建设资金；②更新改造资金；③财政预算外资金；④粮、棉、油收购资金；⑤证券交易结算资金；⑥期货交易保证金；⑦信托基金；⑧金融机构存放同业资金；⑨政策性房地产开发资金；⑩单位银行卡备用金；⑪住房基金；⑫社会保障基金；⑬收入汇缴资金和业务支出资金；⑭党、团、工会设在单位的组织机构经费；⑮其他需要专项管理和使用的资金。",
       "score": 10.0,
       "type": 2
@@ -35526,7 +35526,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,C,D,E",
       "analysis": "净稳定资金比率必须大于 100％（选项 B 错误）。",
       "score": 10.0,
       "type": 2
@@ -35557,7 +35557,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -35593,7 +35593,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B,D,E",
       "analysis": "金融凭证诈骗罪，是指以非法占有为目的，采用虚构事实、隐瞒真相的方法，使用伪造、变造的委托收款凭证、汇款凭证、银行存单等其他银行结算凭证进行诈骗活动的行为。",
       "score": 10.0,
       "type": 2
@@ -35785,7 +35785,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,D,E",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -35821,7 +35821,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,D,E",
       "analysis": "《中华人民共和国银行业监督管理法》第三十七条规定，银行业金融机构违反审慎经营规则的，国务院银行业监督管理机构或者其省一级派出机构应当责令限期改正；逾期未改正的，或者其行为严重危及该银行业金融机构的稳健运行、损害存款人和其他客户合法权益的，经国务院银行业监督管理机构或者其省一级派出机构负责人批准，可以区别情形，采取下列措施：①责令暂停部分业务、停止批准开办新业务；②限制分配红利和其他收入；③限制资产转让；④责令控股股东转让股权或者限制有关股东的权利；⑤责令调整董事、高级管理人员或者限制其权利；⑥停止批准增设分支机构。",
       "score": 10.0,
       "type": 2
@@ -35852,7 +35852,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -35888,7 +35888,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,D,E",
       "analysis": "《中华人民共和国刑法》规定刑罚的主刑包括管制、拘役、有期徒刑、无期徒刑、死刑。",
       "score": 10.0,
       "type": 2
@@ -35924,7 +35924,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,E",
       "analysis": "在通货膨胀时，黄金投资具有保值作用；美元走势会影响黄金价格（通常呈负相关）；黄金具有内在价值和实用性，但存在市场不充分风险和自然风险；黄金已退出流通领域；黄金流动性较其他证券类投资产品差",
       "score": 10.0,
       "type": 2
@@ -36226,7 +36226,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "图像边缘提取属于计算机视觉任务，不属于特征相关性分析范畴。",
       "score": 10.0,
       "type": 2
@@ -36262,7 +36262,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "固定收益类理财产品的投资对象包括国债、金融债、企业债等。中小企业私募债和国际债券风险较高，不是固定收益类理财产品的典型投资对象",
       "score": 10.0,
       "type": 2
@@ -36298,7 +36298,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "目前，能够发挥世界货币职能的货币主要有美元、欧元、英镑、日元等。",
       "score": 10.0,
       "type": 2
@@ -36334,7 +36334,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B,D,E",
       "analysis": "《银行业金融机构绩效考评监管指引》要求银行业金融机构为落实监管要求和实现自身发展战略，通过建立考评指标、设定考评标准，对考评对象在特定期间的经营成果、风险状况及内控管理进行综合评价，并根据考评结果改进经营管理。",
       "score": 10.0,
       "type": 2
@@ -36370,7 +36370,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "B,C",
       "analysis": "其他一级资本包括其他一级资本工具及其溢价、少数股东资本可计入部分。一般风险准备、未分配利润、资本公积属于核心一级资本",
       "score": 10.0,
       "type": 2
@@ -36495,7 +36495,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "四种编码方式都常见于不同场景，分别适用于无序类别、目标变量、连续性目标映射和有序类别。",
       "score": 10.0,
       "type": 2
@@ -36531,7 +36531,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B,D,E",
       "analysis": "第五次全国金融工作会议明确金融工作的主要任务是服务实体经济、防控系统性风险、深化金融改革，扩大资产规模和促进行业发展不属于核心任务",
       "score": 10.0,
       "type": 2
@@ -36567,7 +36567,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,D,E",
       "analysis": "流动性风险主要源于银行自身资产负债结构的错配，突发性事件及信用、市场、操作和声誉等风险之间的转换，或源于市场流动性收紧未能以公允价值变现或质押资产以获得资金。",
       "score": 10.0,
       "type": 2
@@ -36603,7 +36603,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "目前，能够发挥世界货币职能的货币主要有美元、欧元、英镑、日元等。",
       "score": 10.0,
       "type": 2
@@ -36634,7 +36634,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -36966,7 +36966,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "C（学历）相关性不足，需谨慎使用。",
       "score": 10.0,
       "type": 2
@@ -37002,7 +37002,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,D",
       "analysis": "我国主要资本市场包括债券市场、股票市场等。商业票据市场、回购市场、同业拆借市场属于货币市场",
       "score": 10.0,
       "type": 2
@@ -37038,7 +37038,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "单一法人客户信用风险识别包括基本信息、财务状况、非财务因素、担保分析，竞争对手分析不属于信用风险识别的核心内容",
       "score": 10.0,
       "type": 2
@@ -37074,7 +37074,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "合理的账户划分是商业银行开展有效的市场风险计量监控、准确计量市场风险监管资本要求的基础。",
       "score": 10.0,
       "type": 2
@@ -37105,7 +37105,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "行业按照其市场结构可以分为完全竞争、垄断竞争、寡头垄断和完全垄断四类。",
       "score": 10.0,
       "type": 2
@@ -37141,7 +37141,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,D,E",
       "analysis": "信用中介职能是商业银行最基本的职能。银行通过吸收存款，动员和集中社会上一切闲置的货币资本，然后又通过放款把这些货币资本贷方给需要资本的企业使用。这样，银行就成了货币资本的贷出者和借入者之间的中介人。银行作为信用中介，克服了企业之间直接借贷的种种局限性，如在资本数量、借贷时间、空间上不一致性及不了解信用能力等局限性。通过信用中介职能对资本进行再分配，使货币资本得到充分有效的运用，加速了资本的周转，促进了生产的发展。C项是商业银行支付中介职能。",
       "score": 10.0,
       "type": 2
@@ -37172,7 +37172,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "对公客户评级需综合财务、行业、管理、担保等因素。",
       "score": 10.0,
       "type": 2
@@ -37208,7 +37208,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,C,E",
       "analysis": "管理层风险、企业产品销售风险属于非系统性风险（选项 B、D 错误）。",
       "score": 10.0,
       "type": 2
@@ -37603,7 +37603,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "皮尔逊相关系数衡量线性相关性，其值范围在-1到1之间，并假设变量服从正态分布。但它对异常值非常敏感。",
       "score": 10.0,
       "type": 2
@@ -37639,7 +37639,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,D,E",
       "analysis": "资产负债率越高，信用评级越低（选项 C 错误）。",
       "score": 10.0,
       "type": 2
@@ -37675,7 +37675,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,D,E",
       "analysis": "设立私募股权投资基金时，普通合伙人准备的条款清单内容包括 GP 的出资比例、收益分成、管理费、有限合伙人的职责、投资限制等",
       "score": 10.0,
       "type": 2
@@ -37706,7 +37706,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -37737,7 +37737,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -37773,7 +37773,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,D,E",
       "analysis": "1992年美国全国反虚假财务报告委员会下属的发起人委员会发布的《内部控制——整体框架》提出了内部控制的五个要素，包括控制环境、风险评估、控制活动、信息与沟通和内部监督。",
       "score": 10.0,
       "type": 2
@@ -37960,7 +37960,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "C降低可解释性。",
       "score": 10.0,
       "type": 2
@@ -37991,7 +37991,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -38027,7 +38027,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,D,E",
       "analysis": "商业银行对质押担保应重点关注质物范围、合同条款、质权人权利义务、权利质押生效与转让、债务到期后质物处理等事项，上述选项均符合要求。",
       "score": 10.0,
       "type": 2
@@ -38063,7 +38063,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,C,E",
       "analysis": "B项，商业银行可通过信贷资产组合管理或与其他商业银行组成银团贷款的方式，使授信对象多样化，从而分散和降低风险。D项，多样化投资分散风险的策略行之有效的前提条件是有足够多的相互独立的投资形式。",
       "score": 10.0,
       "type": 2
@@ -38094,7 +38094,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -38130,7 +38130,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "销售人员从事理财产品销售活动，应当遵循以下原则：①勤勉尽职原则；②诚实守信原则；③公平对待投资者原则；④专业胜任原则。",
       "score": 10.0,
       "type": 2
@@ -38395,7 +38395,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "`mean()`、`std()`、`skew()`、`describe()` 均可用于计算分布统计指标；`boxplot()` 是绘图函数。",
       "score": 10.0,
       "type": 2
@@ -38431,7 +38431,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,C,D,E",
       "analysis": "债务人不履行到期债务或者发生当事人约定的实现质权的情形，质权人可以与出质人协议以质押财产折价，也可以就拍卖、变卖质押财产所得的价款优先受偿。质押财产折价或者变卖的，应当参照市场价格。质权人有权收取质押财产的孳息，但是合同另有约定的除外。前款规定的孳息应当先充抵收取孳息的费用。质权人可以放弃质权。债务人以自己的财产出质，质权人放弃该质权的，其他担保人在质权人丧失优先受偿权益的范围内免除担保责任，但是其他担保人承诺仍然提供担保的除外。",
       "score": 10.0,
       "type": 2
@@ -38467,7 +38467,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,D,E",
       "analysis": "保证合同的内容包括被保证的主债权种类、数额，债务人履行债务的期限，保证的方式、范围、期间等条款。",
       "score": 10.0,
       "type": 2
@@ -38503,7 +38503,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,D,E",
       "analysis": "查表法较为简便，适合初学者，理财师通过比对参数可迅速找到对应系数，但答案不够精确，通常适用于大致估算",
       "score": 10.0,
       "type": 2
@@ -38534,7 +38534,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "B,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -38565,7 +38565,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -38601,7 +38601,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B,C,E",
       "analysis": "AD属于操作风险指标。",
       "score": 10.0,
       "type": 2
@@ -38637,7 +38637,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,D,E",
       "analysis": "金融市场是指货币资金融通和金融工具交易的场所。金融市场的融资行为既包括以银行等金融机构为信用媒介的间接融资行为，也包括各类交易主体之间的直接融资行为。B、C 两项正确。金融市场的主体是各类融资活动的参与者，它们既是资金的供应者，也是资金的需求者，一般包括工商企业、金融机构、中央银行、居民个人与家庭、政府、海外投资者等。D、E 两项正确。金融市场的客体是金融交易对象。金融市场的交易对象是货币资金，通常以金融工具为载体。A 项正确。",
       "score": 10.0,
       "type": 2
@@ -38855,7 +38855,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -38891,7 +38891,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,D,E",
       "analysis": "要约是希望和他人订立合同的意思表示。承诺是受要约人同意要约的意思表示。行为人可以撤回意思表示。撤回意思表示的通知应当在意思表示到达相对人前或者与意思表示同时到达相对人。",
       "score": 10.0,
       "type": 2
@@ -39161,7 +39161,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -39197,7 +39197,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B,C,D,E",
       "analysis": "根据《金融企业不良资产批量转让管理办法》第八条的规定，下列不良资产不得进行批量转让：(1)债务人或担保人为国家机关的资产。(2)经国务院批准列入全国企业政策性关闭破产计划的资产。(3)国防军工等涉及国家安全和敏感信 息的资产。(4)个人贷款(包括向个人发放的购房贷款、购车贷款、教育助学贷款、信用卡透支、其他消费贷款等以个人为  借款主体的各类贷款) 。(5)在借款合同或担保合同中有限制转让条款的资产。(6)国家法律法规限制转让的其他资产。",
       "score": 10.0,
       "type": 2
@@ -39347,7 +39347,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,C,D,E",
       "analysis": "债务人不履行到期债务或者发生当事人约定的实现质权的情形，质权人可以与出质人协议以质押财产折价，也可以就拍卖、变卖质押财产所得的价款优先受偿。质押财产折价或者变卖的，应当参照市场价格。质权人有权收取质押财产的孳息，但是合同另有约定的除外。前款规定的孳息应当先充抵收取孳息的费用。质权人可以放弃质权。债务人以自己的财产出质，质权人放弃该质权的，其他担保人在质权人丧失优先受偿权益的范围内免除担保责任，但是其他担保人承诺仍然提供担保的除外。",
       "score": 10.0,
       "type": 2
@@ -39383,7 +39383,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "D,E",
       "analysis": "D、E选项是债项评级的特点。",
       "score": 10.0,
       "type": 2
@@ -39419,7 +39419,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "公开原则包括监管立法和政策标准公开、监管执法和行为标准公开、行政复议的依据 / 标准 / 程序公开（选项 D、E 错误）。",
       "score": 10.0,
       "type": 2
@@ -39450,7 +39450,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "同业、理财、衍生品等高风险业务需专项管理，存款业务风险较低。",
       "score": 10.0,
       "type": 2
@@ -39705,7 +39705,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "股东大会行使下列职权：决定公司的经营方针和投资计划；选举和更换非由职工代表担任的董事、监事，决定有关董事、监事的报酬事项；审议批准董事会的报告；审议批准监事会或者监事的报告；审议批准公司的年度财务预算方案、决算方案；审议批准公司的利润分配方案和弥补亏损方案；对公司增加或者减少注册资本作出决议；对发行公司债券作出决议；对公司合并、分立、解散、清算或者变更公司形式作出决议；修改公司章程；公司章程规定的其他职权。法律允许和鼓励公司章程基于公司自治的原则，赋予股东大会更多的职权。CD两项均属于董事会的职责，E项属于监事会的职责。",
       "score": 10.0,
       "type": 2
@@ -39741,7 +39741,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B,D,E",
       "analysis": "与非零售风险暴露相比，零售风险暴露具有笔数大、单笔风险暴露较小、风险分散的显著特点，这一特点决定了商业银行普遍采用组合的方式对零售业务进行管理。",
       "score": 10.0,
       "type": 2
@@ -39777,7 +39777,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,D,E",
       "analysis": "具备下列情形之一的，信托公司可以使用信托业保障基金：（1）信托公司因资不抵债，在实施恢复与处置计划后，仍需重组的；（2）信托公司依法进入破产程序，并进行重整的；（3）信托公司因违法违规经营，被责令关闭、撤销的；（4）信托公司因临时资金周转困难，需要提供短期流动性支持的；（5）需要使用保障基金的其他情形。",
       "score": 10.0,
       "type": 2
@@ -39813,7 +39813,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,D,E",
       "analysis": "根据《行政处罚办法》，银保监会及其派出机构实施行政处罚的程序可分为立案、调查、取证、审理、审议、权利告知听证、决定与执行等环节。",
       "score": 10.0,
       "type": 2
@@ -40260,7 +40260,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "岭回归通过L2正则化惩罚系数大小，适用于共线性和高维数据；C更适合Lasso回归。",
       "score": 10.0,
       "type": 2
@@ -40296,7 +40296,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,C",
       "analysis": "外包合同需明确分包规则、禁止主要业务分包。通报突发事件和配合检查是外包整体要求，总责应由主服务商承担，故第一项和第三项正确",
       "score": 10.0,
       "type": 2
@@ -40327,7 +40327,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -40363,7 +40363,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "行业按照其市场结构可以分为完全竞争、垄断竞争、寡头垄断和完全垄断四类。",
       "score": 10.0,
       "type": 2
@@ -40586,7 +40586,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B,D,E",
       "analysis": "《中华人民共和国银行业监督管理法》第四十二条规定，银行业监督管理机构依法对银行业金融机构进行检查时，经设区的市一级以上银行业监督管理机构负责人批准，可以对与涉嫌违法事项有关的单位和个人采取下列措施：①询问有关单位或者个人，要求其对有关情况作出说明；②查阅、复制有关财务会计、财产权登记等文件、资料；③对可能被转移、隐匿、毁损或者伪造的文件、资料，予以先行登记保存。",
       "score": 10.0,
       "type": 2
@@ -40622,7 +40622,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "在期货交易中，应当强行平仓的情形包括：会员结算准备金余额小于零，并未能在规定时限内补足；持仓量超出其限仓规定；因违规受到交易所强行平仓处罚；根据交易所的紧急措施应予强行平仓。会员、客户的现金流出现问题不属于强行平仓的情形",
       "score": 10.0,
       "type": 2
@@ -40917,7 +40917,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "《中华人民共和国民法典》第五百零八条规定，本编对合同的效力没有规定的，适用本法第一编第六章的有关规定。该法第一百四十六条规定，行为人与相对人以虚假的意思表示实施的民事法律行为无效。以虚假的意思表示隐藏的民事法律行为的效力，依照有关法律规定处理。该法第一百四十七条规定，基于重大误解实施的民事法律行为，行为人有权请求人民法院或者仲裁机构予以撤销。该法第一百五十一条规定，一方利用对方处于危困状态、缺乏判断能力等情形，致使民事法律行为成立时显失公平的，受损害方有权请求人民法院或者仲裁机构予以撤销。该法第一百五十三条规定，违反法律、行政法规的强制性规定的民事法律行为无效。但是，该强制性规定不导致该民事法律行为无效的除外。违背公序良俗的民事法律行为无效。该法第一百五十四条规定，行为人与相对人恶意串通，损害他人合法权益的民事法律行为无效。",
       "score": 10.0,
       "type": 2
@@ -40953,7 +40953,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,E",
       "analysis": "尽管风险与损失有密切联系，但风险并不等同于损失本身。严格地说，损失是一个事后概念，反映风险事件发生后所 造成的实际结果，而风险却是一个明确的事前概念，反映损失发生前的事物发展状态，在风险的定量分析中可以采用概率和统 计方法计算出损失规模和发生的可能性。因此，风险和损失是两个不同的概念，将风险等同于损失其危害在于：将发生损失之前的风险管理和损失真实发生之后的善后处置相混淆，会削弱风险管理的积极性和主动性，无法真正做到在经营管理过程中将风险关口前移，主动防范和规避风险。",
       "score": 10.0,
       "type": 2
@@ -41125,7 +41125,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "行业按照其市场结构可以分为完全竞争、垄断竞争、寡头垄断和完全垄断四类。",
       "score": 10.0,
       "type": 2
@@ -41156,7 +41156,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "信用风险加权资产可采用权重法或内部评级法，蒙特卡洛模拟用于市场风险。",
       "score": 10.0,
       "type": 2
@@ -41192,7 +41192,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "利息收入是商业银行收入的最主要来源。利息收入可具体细分为贷款利息收入、证券投资利息收入以及存放同业、同业拆出、进行证券回购所得利息收入等。（DE两项是非利息收入）",
       "score": 10.0,
       "type": 2
@@ -41228,7 +41228,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,D,E",
       "analysis": "商业银行可以经营下列部分或者全部业务：①吸收公众存款；②发放短期、中期和长期贷款；③办理国内外结算；④办理票据承兑与贴现；⑤发行金融债券；⑥代理发行、代理兑付、承销政府债券；⑦买卖政府债券、金融债券；⑧从事同业拆借；⑨买卖、代理买卖外汇；⑩从事银行卡业务；⑪提供信用证服务及担保；⑫代理收付款项及代理保险业务；⑬提供保管箱服务；⑭经国务院银行业监督管理机构批准的其他业务。经营范围由商业银行章程规定，报国务院银行业监督管理机构批准。",
       "score": 10.0,
       "type": 2
@@ -41607,7 +41607,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,C,D",
       "analysis": "通常认为，中央银行的最后贷款人制度、金融监管机构的审慎监管、存款保险制度是构成金融安全网的三大支柱。",
       "score": 10.0,
       "type": 2
@@ -41643,7 +41643,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B,D,E",
       "analysis": "人身保险新型产品包括分红型寿险、万能型寿险、投资连结型寿险。意外伤害保险属于传统人身保险，保证保险属于财产保险",
       "score": 10.0,
       "type": 2
@@ -41757,7 +41757,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -41788,7 +41788,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A,B",
       "analysis": "信用风险加权资产可采用权重法或内部评级法，蒙特卡洛模拟用于市场风险。",
       "score": 10.0,
       "type": 2
@@ -41819,7 +41819,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,D",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -41871,7 +41871,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,D",
       "analysis": "雷达图确实在某种程度上实现了三维数据的二维呈现，但是它更适合定量数据而非定性数据，而且对于某些受众来说可能不如其他简单图表那样容易解读。",
       "score": 10.0,
       "type": 2
@@ -41980,7 +41980,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,B,C,D,E",
       "analysis": "资产负债管理监测报表一般应包括本外币存贷款数据、资产负债计划完成情况、同业资产负债运行情况、信贷资产的收益和风险分类情况、资本管理情况、利率管理情况、流动性管理情况等。",
       "score": 10.0,
       "type": 2
@@ -42016,7 +42016,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A,B,C,D",
       "analysis": "E项，行业盈亏系数=行业内亏损企业个数／行业内全部企业个数，该指标是衡量行业风险程度的关键指标，数值越 低风险越小。",
       "score": 10.0,
       "type": 2
@@ -42083,7 +42083,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "A,C,D,E",
       "analysis": "B项，银行对消费者购买银行产品或者接受银行服务的申请，应当在规定时间内办理；拒绝消费者有关申请的，应当及时告知消费者，并向其说明理由。",
       "score": 10.0,
       "type": 2
@@ -42119,7 +42119,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "B,C,D,E",
       "analysis": "战略风险是指商业银行在追求短期商业目的和长期发展目标的过程中，  因不适当的发展规划和战略决策给商业银行造 成损失或不利影响的风险。战略风险主要体现在四个方面：(1)商业银行战略目标缺乏整体兼容性。(2)为实现战略目标而制定的经营战略存在缺陷。(3)为实现战略目标所需要的资源匮乏。(4)整个战略实施过程的质量难以保证。",
       "score": 10.0,
       "type": 2
@@ -42259,7 +42259,7 @@
           "is_correct": true
         }
       ],
-      "correct_answer": "E",
+      "correct_answer": "C,D,E",
       "analysis": "面对新常态，需要抓好的五大重点任务是：去产能、去库存、去杠杆、降成本、补短板。",
       "score": 10.0,
       "type": 2
@@ -42342,7 +42342,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "B,C",
       "analysis": "",
       "score": 10.0,
       "type": 2
@@ -42373,7 +42373,7 @@
           "is_correct": false
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A,B,C",
       "analysis": "",
       "score": 10.0,
       "type": 2

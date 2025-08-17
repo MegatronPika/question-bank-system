@@ -92,6 +92,7 @@
 let currentQuestion = null;
 let currentMode = null;
 let selectedAnswer = null;
+let selectedAnswers = []; // 用于多选题
 
 function startPractice(mode) {
     currentMode = mode;
@@ -135,16 +136,35 @@ function displayQuestion(question) {
     const optionsContainer = $('#options-container');
     optionsContainer.empty();
     
-    question.options.forEach(option => {
-        const optionBtn = $(`
-            <button class="option-btn" onclick="selectOption('${option.tag}')">
-                <strong>${option.tag}.</strong> ${option.content}
-            </button>
-        `);
-        optionsContainer.append(optionBtn);
-    });
+    if (question.type === 2) {
+        // 多选题：使用复选框
+        question.options.forEach(option => {
+            const optionDiv = $(`
+                <div class="option-checkbox">
+                    <input type="checkbox" id="option_${option.tag}" value="${option.tag}" onchange="toggleMultiOption('${option.tag}')">
+                    <label for="option_${option.tag}">
+                        <strong>${option.tag}.</strong> ${option.content}
+                    </label>
+                </div>
+            `);
+            optionsContainer.append(optionDiv);
+        });
+        selectedAnswers = [];
+        selectedAnswer = null;
+    } else {
+        // 单选题和判断题：使用单选按钮
+        question.options.forEach(option => {
+            const optionBtn = $(`
+                <button class="option-btn" onclick="selectOption('${option.tag}')">
+                    <strong>${option.tag}.</strong> ${option.content}
+                </button>
+            `);
+            optionsContainer.append(optionBtn);
+        });
+        selectedAnswer = null;
+        selectedAnswers = [];
+    }
     
-    selectedAnswer = null;
     $('#submit-btn').prop('disabled', true);
 }
 
@@ -155,10 +175,32 @@ function selectOption(option) {
     $('#submit-btn').prop('disabled', false);
 }
 
+function toggleMultiOption(option) {
+    const checkbox = $(`#option_${option}`);
+    if (checkbox.is(':checked')) {
+        selectedAnswers.push(option);
+    } else {
+        selectedAnswers = selectedAnswers.filter(a => a !== option);
+    }
+    $('#submit-btn').prop('disabled', selectedAnswers.length === 0);
+}
+
 function submitAnswer() {
-    if (!selectedAnswer) {
-        alert('请选择一个答案');
-        return;
+    let answer;
+    if (currentQuestion.type === 2) {
+        // 多选题
+        if (selectedAnswers.length === 0) {
+            alert('请至少选择一个答案');
+            return;
+        }
+        answer = selectedAnswers;
+    } else {
+        // 单选题和判断题
+        if (!selectedAnswer) {
+            alert('请选择一个答案');
+            return;
+        }
+        answer = selectedAnswer;
     }
     
     $('#submit-btn').prop('disabled', true);
@@ -169,7 +211,7 @@ function submitAnswer() {
         contentType: 'application/json',
         data: JSON.stringify({
             question_id: currentQuestion.id,
-            answer: selectedAnswer
+            answer: answer
         }),
         success: function(response) {
             showResult(response);
@@ -181,17 +223,31 @@ function submitAnswer() {
 }
 
 function showResult(result) {
-    // 显示正确答案
-    $('.option-btn').each(function() {
-        const optionText = $(this).text();
-        const optionTag = optionText.split('.')[0].trim();
-        
-        if (optionTag === result.correct_answer) {
-            $(this).addClass('correct');
-        } else if (optionTag === selectedAnswer && !result.is_correct) {
-            $(this).addClass('incorrect');
-        }
-    });
+    if (currentQuestion.type === 2) {
+        // 多选题结果显示
+        $('.option-checkbox input').each(function() {
+            const optionTag = $(this).val();
+            const correctAnswers = result.correct_answer.split(',');
+            
+            if (correctAnswers.includes(optionTag)) {
+                $(this).parent().addClass('correct');
+            } else if (selectedAnswers.includes(optionTag) && !result.is_correct) {
+                $(this).parent().addClass('incorrect');
+            }
+        });
+    } else {
+        // 单选题和判断题结果显示
+        $('.option-btn').each(function() {
+            const optionText = $(this).text();
+            const optionTag = optionText.split('.')[0].trim();
+            
+            if (optionTag === result.correct_answer) {
+                $(this).addClass('correct');
+            } else if (optionTag === selectedAnswer && !result.is_correct) {
+                $(this).addClass('incorrect');
+            }
+        });
+    }
     
     // 显示结果
     const resultTitle = result.is_correct ? 

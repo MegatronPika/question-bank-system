@@ -10,6 +10,17 @@
     </h1>
     <p class="lead mb-5">欢迎使用在线题库练习系统，提升您的专业技能！</p>
     
+    <div class="alert alert-info">
+        <i class="fas fa-user"></i>
+        欢迎，<strong>{{ session.user_id }}</strong>！
+        <a href="/profile" class="btn btn-sm btn-outline-primary ms-2">
+            <i class="fas fa-user-cog"></i> 个人资料
+        </a>
+        <a href="/logout" class="btn btn-sm btn-outline-danger ms-2">
+            <i class="fas fa-sign-out-alt"></i> 退出登录
+        </a>
+    </div>
+    
     <div class="row justify-content-center">
         <div class="col-md-4">
             <div class="card h-100 shadow">

@@ -74,6 +74,42 @@
             color: white;
             border-color: #f44336;
         }
+        .option-checkbox {
+            background: #f8f9fa;
+            border: 2px solid #e9ecef;
+            border-radius: 10px;
+            padding: 15px 20px;
+            margin: 10px 0;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: left;
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+        .option-checkbox:hover {
+            background: #e3f2fd;
+            border-color: #2196f3;
+        }
+        .option-checkbox.correct {
+            background: #4caf50;
+            color: white;
+            border-color: #4caf50;
+        }
+        .option-checkbox.incorrect {
+            background: #f44336;
+            color: white;
+            border-color: #f44336;
+        }
+        .option-checkbox input[type="checkbox"] {
+            margin-right: 10px;
+            transform: scale(1.2);
+        }
+        .option-checkbox label {
+            margin: 0;
+            cursor: pointer;
+            flex: 1;
+        }
         .timer {
             font-size: 24px;
             font-weight: bold;
