@@ -1,0 +1,4279 @@
+{
+  "exam_info": {
+    "title": "金融业数字化转型技能大赛数据建模赛道-银行组模拟",
+    "total_questions": 150,
+    "total_score": 1000.0
+  },
+  "questions": [
+    {
+      "id": 13617,
+      "number": 1,
+      "content": "在使用Z-score方法识别异常值时，通常认为超过多少标准差的数据为异常？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "±1",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "±2",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "±3",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "±5",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "analysis": "Z-score绝对值超过3通常被认为是异常值，表示偏离均值超过3个标准差。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 13814,
+      "number": 2,
+      "content": "哪种图表常用于地理数据分析，如人口密度或气温分布？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "热力图",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "气泡图",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "三维曲面图",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "极坐标图",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A",
+      "analysis": "热力图利用颜色深浅来表达数值大小，在地图上则用来表现特定区域内数值的变化情况，非常适合地理信息的可视化。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 13664,
+      "number": 3,
+      "content": "如果想将字符串列表（如['red', 'blue', 'green']）转换为整数编码，使用最简洁的方式是？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "`map()`",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "`dict comprehension`",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "`LabelEncoder`",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "`OneHotEncoder`",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "analysis": "`LabelEncoder`来自`sklearn.preprocessing`，专门用于将标签转换为整数编码，非常适合这种场景。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 14035,
+      "number": 4,
+      "content": "以下哪种方法不适用于回归任务？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "随机森林",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "K近邻（KNN）",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "逻辑回归",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "梯度提升树（GBDT）",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "analysis": "逻辑回归本质上是分类算法，虽然有时用于概率预测，但不是真正的回归模型。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 13767,
+      "number": 5,
+      "content": "在使用 `pandas` 的 `.corr()` 方法时，默认使用的相关系数类型是：",
+      "options": [
+        {
+          "tag": "A",
+          "content": "斯皮尔曼",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "肯德尔",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "皮尔逊",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "切比雪夫",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "analysis": "`.corr()` 默认使用的是皮尔逊相关系数，可以通过参数 `method=` 更改为其他类型。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 13461,
+      "number": 6,
+      "content": "以下哪项不能有效缓解过拟合？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "增加训练数据量",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "使用L1/L2正则化",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "提前停止（Early Stopping）",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "增加模型复杂度",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D",
+      "analysis": "复杂模型（如更深神经网络）更容易捕捉噪声。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 14018,
+      "number": 7,
+      "content": "以下哪种模型最常用于目标检测任务？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "U-Net",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "Faster R-CNN",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "Autoencoder",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "PCA",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B",
+      "analysis": "Faster R-CNN是一种经典的两阶段目标检测模型，U-Net用于图像分割，Autoencoder用于特征学习或去噪，PCA是传统降维方法。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 13663,
+      "number": 8,
+      "content": "使用`pandas`将日期字符串（如\"2023-06-01\"）转换为时间戳类型的方法是？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "`to_datetime()`",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "`astype('datetime64')`",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "`pd.Timestamp()`",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "以上都可以",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D",
+      "analysis": "`to_datetime()`、`astype('datetime64')`和`Timestamp()`都可以实现日期字符串到时间戳的转换，其中`to_datetime()`是最常用的方法。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 14196,
+      "number": 9,
+      "content": "以下哪个库可用于交互式图表绘制，支持Web前端展示？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "Seaborn",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "Matplotlib",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "Plotly",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "Statsmodels",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "analysis": "Plotly 支持创建交互式图表，适用于 Web 可视化，也可以集成到 Dash 框架中构建仪表盘。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 13934,
+      "number": 10,
+      "content": "回归分析的主要目的是什么？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "确定变量之间的相关性",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "预测一个变量基于另一个或多个变量的变化",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "对数据进行分类",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "检验变量是否服从正态分布",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B",
+      "analysis": "回归分析的核心是通过建立变量之间的函数关系，用自变量来预测因变量的取值，因此主要目的是预测。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 13765,
+      "number": 11,
+      "content": "以下哪个方法不能用于处理缺失值对相关性的影响？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "删除含有缺失值的行",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "填充缺失值",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "忽略缺失值直接计算",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "使用 `.fillna(0)` 替换缺失值",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "analysis": "缺失值会直接影响相关系数的计算结果，必须先处理缺失值，否则可能引发错误或误导性结果。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 13714,
+      "number": 12,
+      "content": "使用Seaborn绘制箱线图的函数是？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "`sns.histplot()`",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "`sns.boxplot()`",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "`sns.scatterplot()`",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "`sns.barplot()`",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B",
+      "analysis": "`sns.boxplot()` 函数用于绘制箱线图，可直观识别离群点。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 13662,
+      "number": 13,
+      "content": "对于非数值型的目标变量（如'Yes', 'No'），在进行逻辑回归之前通常需要进行什么操作？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "标准化",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "归一化",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "标签编码",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "独热编码",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "analysis": "目标变量一般使用`LabelEncoder`转换为0和1的形式，适合逻辑回归等模型的需求。独热编码适用于特征，而非目标变量。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 13482,
+      "number": 14,
+      "content": "在模型效果对比时，若AUC值相同，应进一步参考？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "KS曲线或PR曲线",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "特征数量",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "训练时间",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "数据存储大小",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A",
+      "analysis": "KS值反映模型区分度，PR曲线在类别不均衡时比ROC更敏感。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 13593,
+      "number": 15,
+      "content": "若一张客户表中存在多个相同客户ID的记录，可能需要使用什么方法来识别？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "使用DISTINCT去重",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "使用GROUP BY和HAVING查找重复",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "使用ORDER BY排序",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "使用LIMIT限制数量",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B",
+      "analysis": "通过 `GROUP BY customer_id HAVING COUNT(*) > 1` 可以识别出重复的客户 ID 记录。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 13987,
+      "number": 16,
+      "content": "层次聚类可以分为哪两种类型？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "自上而下和自底向上",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "分裂式和凝聚式",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "基于划分和基于密度",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "以上都不对",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B",
+      "analysis": "层次聚类主要包括分裂式（自顶向下）和凝聚式（自底向上）两种方式。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 13737,
+      "number": 17,
+      "content": "在SQL中，如何计算两个数值列X和Y的协方差？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "使用COVAR_POP(X, Y)",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "使用COVARIANCE(X, Y)",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "使用CORR(X, Y)",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "使用VAR(X, Y)",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A",
+      "analysis": "在SQL中，COVAR_POP(X, Y)函数用于计算两个数值列X和Y的协方差。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 13840,
+      "number": 18,
+      "content": "如果想在一张画布上同时绘制多个子图，应该使用以下哪个函数？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "plt.subplot()",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "plt.figure()",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "plt.show()",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "plt.title()",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A",
+      "analysis": "plt.subplot() 可以在同一画布上创建多个子图。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 13661,
+      "number": 19,
+      "content": "在机器学习中，对类别特征进行独热编码（One-Hot Encoding）使用的`sklearn`类是？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "`LabelEncoder`",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "`OneHotEncoder`",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "`StandardScaler`",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "`MinMaxScaler`",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B",
+      "analysis": "`OneHotEncoder`用于对分类变量进行独热编码，避免模型误认为类别之间有顺序关系。其他选项分别是标签编码和标准化方法。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 13494,
+      "number": 20,
+      "content": "联邦学习在金融风控中的核心价值是？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "允许跨机构数据“可用不可见”",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "替代传统机器学习",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "降低单机计算成本",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "减少所有数据预处理步骤",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A",
+      "analysis": "联邦学习通过加密参数交互实现联合建模，解决数据隐私与合规问题。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 13690,
+      "number": 21,
+      "content": "假设有一个销售订单表orders，其中包含order_date字段。若要按月统计订单数量，应使用以下哪种方式？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "SELECT order_date, COUNT(*) FROM orders GROUP BY order_date",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "SELECT DATE_TRUNC('month', order_date), COUNT(*) FROM orders GROUP BY DATE_TRUNC('month', order_date",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "SELECT EXTRACT(MONTH FROM order_date), COUNT(*) FROM orders GROUP BY EXTRACT(MONTH FROM order_date)",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "B和C都对",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D",
+      "analysis": "DATE_TRUNC** 和 **EXTRACT** 都可用于提取月份信息，并按月分组统计订单数，属于时间序列分布分析。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 13693,
+      "number": 22,
+      "content": "下列哪种SQL语句可以找出某列中出现频率最高的值？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "SELECT column, COUNT(column) FROM table GROUP BY column ORDER BY COUNT(column) DESC LIMIT 1",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "SELECT column, MAX(column) FROM table",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "SELECT column, AVG(column) FROM table GROUP BY column ORDER BY AVG(column) DESC",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "SELECT DISTINCT column FROM table ORDER BY COUNT(column) DESC",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A",
+      "analysis": "ORDER BY COUNT(column) DESC LIMIT 1** 可获取最高频值，是查找众数的标准方法。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 13785,
+      "number": 23,
+      "content": "下列哪种方法适用于非线性关系的相关性分析？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "皮尔逊相关",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "斯皮尔曼相关",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "协方差",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "偏相关",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B",
+      "analysis": "斯皮尔曼相关基于秩次，适用于非线性但单调的关系，不依赖于数据分布是否为正态。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 13618,
+      "number": 24,
+      "content": "下列关于缺失值处理的说法错误的是：",
+      "options": [
+        {
+          "tag": "A",
+          "content": "缺失值会影响模型训练结果",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "缺失值可以直接忽略",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "缺失值可以用前后值插值填充",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "缺失值可以作为一类特殊类别处理",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B",
+      "analysis": "缺失值不能直接忽略，否则可能导致信息丢失或模型偏差，必须进行适当处理。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 13942,
+      "number": 25,
+      "content": "在回归模型中，标准化回归系数的作用是：",
+      "options": [
+        {
+          "tag": "A",
+          "content": "提高模型拟合度",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "使不同单位的自变量具有可比性",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "减少计算复杂度",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "解决多重共线性问题",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B",
+      "analysis": "标准化系数消除了变量单位的影响，便于比较不同自变量对因变量的重要性。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 13446,
+      "number": 26,
+      "content": "在风控模型中，WOE（Weight of Evidence）常用于？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "特征离散化与编码",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "模型超参数调优",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "评估模型AUC",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "数据可视化",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A",
+      "analysis": "WOE将分类变量转换为风险相关性数值，常用于信用评分。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 14106,
+      "number": 27,
+      "content": "Transformer 模型中最重要的机制是：",
+      "options": [
+        {
+          "tag": "A",
+          "content": "卷积操作",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "循环结构",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "注意力机制",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "随机梯度下降",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "analysis": "Transformer 的核心在于自注意力机制，它使模型能够关注输入中的关键部分。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 13735,
+      "number": 28,
+      "content": "假设你有一个销售数据表sales，包含字段product_id（产品ID）、quantity（销售数量）和price（价格）。你想找出销售数量和价格之间的相关性，以下哪个SQL语句是正确的？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "SELECT CORR(quantity, price) FROM sales;",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "SELECT CORRELATION(quantity, price) FROM sales;",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "SELECT PEARSON(quantity, price) FROM sales;",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "SELECT COVARIANCE(quantity, price) FROM sales;",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A",
+      "analysis": "在SQL中，使用CORR()函数来计算两个数值列之间的皮尔逊相关系数。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 14015,
+      "number": 29,
+      "content": "以下哪种技术可以有效防止神经网络过拟合？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "批归一化（Batch Normalization）",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "增加隐藏层数量",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "减少训练样本数量",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "提高学习率",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A",
+      "analysis": "批归一化有助于加速训练过程并具有一定正则化效果，从而减轻过拟合。增加层数和提高学习率反而可能加剧过拟合。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 13496,
+      "number": 30,
+      "content": "模型可解释性（Explainable AI）在金融风控中的必要性是？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "满足监管对决策透明的要求",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "提升模型准确率",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "减少数据存储",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "替代特征工程",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A",
+      "analysis": "金融监管要求模型拒绝/授信决策有明确依据（如SHAP值、LIME）。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 14441,
+      "number": 31,
+      "content": "按照业务特点和风险特性的不同，商业银行的客户可以分为(       )  。",
+      "options": [
+        {
+          "tag": "A",
+          "content": "公共客户和私人客户",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "法人客户和个人客户",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "单一法人客户和集团法人客户",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "企业类客户和机构类客户",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B",
+      "analysis": "根据商业银行不同客户的信贷业务特点及各自的风险特性，可将商业银行客户划分为法人客户与个人客户，法人客户根据其组织形式不同划分为单一法人客户和集团法人客户。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 21503,
+      "number": 32,
+      "content": "以下 10 个行业中，属于国民经济第三产业的有（）个。①邮政业；②采矿业；③电力；④金融业；⑤渔业；⑥建筑业；⑦交通运输；⑧燃气供应业；⑨房地产业；⑩技术服务业",
+      "options": [
+        {
+          "tag": "A",
+          "content": "4",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "5",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "6",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "7",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B",
+      "analysis": "第一产业是指农、林、牧、渔业；第二产业是指采矿业，制造业，电力、燃气及水的生产和供应业，建筑业；第三产业具体包括以下行业：农、林、牧、渔专业及辅助性活动，开采专业及辅助性活动，批发和零售业，交通运输、仓储和邮政业，住宿和餐饮业，信息传输、软件和信息技术服务业，金融业，房地产业，租赁和商务服务业，科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业，公共管理、社会保障和社会组织，国际组织。本题中，⑤属于第一产业，②③⑥⑧属于第二产业，①④⑦⑨⑩属于第三产业。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 21520,
+      "number": 33,
+      "content": "按我国现行规定，可以向商业银行申请贴现的票据必须是（ ）。",
+      "options": [
+        {
+          "tag": "A",
+          "content": "未到期的未承兑票据",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "已到期的已承兑票据",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "已到期的未承兑票据",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "未到期的已承兑票据",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D",
+      "analysis": "票据贴现是指未到期票据的买卖行为，持有未到期票据的人通过卖出票据得到现款。向商业银行申请贴现的票据须是已承兑票据。承兑是指汇票的付款人承诺负担票据债务的行为。出票人签发汇票，并不等于付款人就一定付款，持票人为确定汇票到期时能得到付款，在汇票到期前向付款人进行承兑提示。付款人签字承兑，就是对汇票的到期付款承担责任。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 15648,
+      "number": 34,
+      "content": "我国监管信托业务的金融机构是（）。",
+      "options": [
+        {
+          "tag": "A",
+          "content": "中国人民银行",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "中国银行业协会",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "中国证券监督管理委员会",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "中国银行保险监督管理委员会",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D",
+      "analysis": "2018年3月13日，国务院机构改革确定组建中国银行保险监督管理委员会。中国银行业监督管理委员会，简称中国银监会，成立于2003年4月25日，是国务院直属正部级事业单位。根据国务院授权，统一监督管理银行、金融资产管理公司、信托投资公司及其他存款类金融机构，维护银行业的合法、稳健运行。中国保险监督管理委员会，简称中国保监会，成立于1998年11月18日，是国务院直属事业单位。根据国务院授权履行行政管理职能，依照法律、法规统一监督管理全国保险市场，维护保险业的合法、稳健运行。2018年3月，根据第十三届全国人民代表大会第一次会议批准的国务院机构改革方案，组建中国银行保险监督管理委员会，将中国银行业监督管理委员会和中国保险监督管理委员会的职责整合。中国银行保险监督管理委员会的主要职责是，依照法律法规统一监督管理银行业和保险业，维护银行业和保险业合法、稳健运行，防范和化解金融风险，保护金融消费者合法权益，维护金融稳定。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 15779,
+      "number": 35,
+      "content": "商业银行如果违反规定查询个人的信用报告，或将查询结果用于规定范围之外的其他目的，将出现的情形不包括（）。",
+      "options": [
+        {
+          "tag": "A",
+          "content": "被责令改正",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "被处以经济处罚",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "被要求返还所查询的信用报告",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "涉嫌犯罪的，将依法移交司法机关处理",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "analysis": "商业银行如果违反规定查询个人的信用报告，或将查询结果用于规定范围之外的其他目的，将被责令改正，并处经济处罚；涉嫌犯罪的，将依法移交司法机关处理。ABD三项都有提及，而C项不属于处理内容。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 21546,
+      "number": 36,
+      "content": "下列市场风险计量方法中，主要用于衡量利率变动对银行整体经济价值的影响的是 ( ) 。",
+      "options": [
+        {
+          "tag": "A",
+          "content": "缺口分析",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "久期分析",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "外汇敞口分析",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "风险价值计量法",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B",
+      "analysis": "久期分析主要用于衡量利率变动对银行整体经济价值的影响。缺口分析用来衡量利率变动对银行当期收益的影响。外汇敞口分析是衡量汇率变动对银行当期收益的影响的一种方法。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 13409,
+      "number": 37,
+      "content": "商业银行对非零售客户信用风险暴露至少应划分为多少级？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "5级",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "7级",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "9级",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "12级",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "analysis": "根据《商业银行信用风险内部评级体系监管指引》，非零售风险暴露需划分为9级（含违约级）。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 13413,
+      "number": 38,
+      "content": "以下哪项是《巴塞尔协议III》新增的监管指标？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "资本充足率",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "杠杆率",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "拨备覆盖率",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "流动性比率",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B",
+      "analysis": "巴塞尔III引入杠杆率（一级资本/总风险暴露≥3%），作为资本充足率的补充。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 21532,
+      "number": 39,
+      "content": "某商业银行在对某出口企业进行贷后调查时发现，受金融危机影响，国外进口商减少了对该企业的订单，导致该企业完全依靠其正常经营收入无法足额偿还贷款本息，即使执行担保，也可能会造成一定损失，该银行应将该企业列为（）。",
+      "options": [
+        {
+          "tag": "A",
+          "content": "关注类贷款",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "次级类贷款",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "可疑类贷款",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "损失类贷款",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B",
+      "analysis": "次级类贷款是指借款人的还款能力出现明显问题，完全依靠其正常经营收入无法足额偿还贷款本息，即使执行担保，也可能会造成一定损失的贷款。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 17992,
+      "number": 40,
+      "content": "金融市场的客体是金融市场的交易对象，下列属于金融市场客体的是 ( )",
+      "options": [
+        {
+          "tag": "A",
+          "content": "会计师事务所",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "居民个人",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "金融工具",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "金融机构",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "analysis": "金融市场客体是交易的对象，即金融工具（如股票、债券等）；其余为市场主体",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 21555,
+      "number": 41,
+      "content": "下列选项中，可以体现商业银行核心竞争力的是 ( ) 。",
+      "options": [
+        {
+          "tag": "A",
+          "content": "吸存放贷水平",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "支付中介",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "货币创造能力",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "风险管理水平",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D",
+      "analysis": "风险管理水平可以体现商业银行的核心竞争力。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 21523,
+      "number": 42,
+      "content": "下列关于信用证支付方式的特点，表述错误的是（）。",
+      "options": [
+        {
+          "tag": "A",
+          "content": "信用证是一项独立文件",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "开证行是信用证第一付款人",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "开证申请人是信用证第一付款人",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "按信用证项下的汇票是否附商业单据，信用证可分为跟单商业信用证和光票信用证",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "analysis": "信用证是指由银行（开证行）依照（申请人的）要求和指示或自己主动，在符合信用证条款的条件下，凭规定单据向第三者（受益人）或其指定方进行付款的书面文件，是一种银行开立的有条件的承诺付款的书面文件。信用证是一项独立的文件，开证行负第一付款责任，是信用证第一付款人。A、B 两项正确，C 项错误。根据信用证项下是否附有商业单据，信用证分为跟单信用证（附有商业单据）和光票信用证（不附有商业单据）。D 项正确。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 21504,
+      "number": 43,
+      "content": "境内机构原则上可以开立（）经常项目外汇账户。",
+      "options": [
+        {
+          "tag": "A",
+          "content": "1 个",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "2 个",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "3 个",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "视情况而定",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A",
+      "analysis": "境内机构原则上只能开立一个经常项目外汇账户。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 17930,
+      "number": 44,
+      "content": "( ) 是民事活动中最核心、最基本的原则",
+      "options": [
+        {
+          "tag": "A",
+          "content": "诚实信用原则",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "公平原则",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "自愿原则",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "平等原则",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A",
+      "analysis": "诚实信用原则是民事活动最核心、最基本的原则，要求民事主体诚实、守信用",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 15714,
+      "number": 45,
+      "content": "下列选项中，（）不属于我国大型商业银行组织架构革新的历史进程。",
+      "options": [
+        {
+          "tag": "A",
+          "content": "专业化改革阶段",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "国有独资商业银行改革阶段",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "国家控股的股份制商业银行改革阶段",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "综合化改革阶段",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D",
+      "analysis": "随着中国金融体制改革的深化，中国大型商业银行的组织架构也在不断调整。从大型商业银行组织架构变革的历史进程来看，其架构革新具有明显的阶段性特征，大致经历了专业化改革阶段、国有独资商业银行改革阶段和国家控股的股份制商业银行改革阶段，形成了当前我国银行业组织架构的主流形式。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 21471,
+      "number": 46,
+      "content": "以下哪项不属于商业银行操作风险事件？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "内部员工欺诈",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "系统宕机",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "市场利率波动",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "外部黑客攻击",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "analysis": "市场利率波动属于市场风险，操作风险包括内部欺诈、系统故障、外部欺诈等。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 15783,
+      "number": 47,
+      "content": "下列不属于个人住房贷款合作机构风险的是（）。",
+      "options": [
+        {
+          "tag": "A",
+          "content": "房产交易登记中心的操作风险",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "中介机构的欺诈风险",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "担保公司的担保风险",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "房地产开发商的欺诈风险",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "A",
+      "analysis": "个人住房贷款合作机构风险的表现形式：①房地产开发商和中介机构的欺诈风险；②担保公司的担保风险；③其他合作机构风险。在二手房贷款业务中，往往涉及多个社会中介机构，如房屋中介机构、评估机构及律师事务所等。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 14379,
+      "number": 48,
+      "content": "窗口指导属于（ ）货币政策工具。",
+      "options": [
+        {
+          "tag": "A",
+          "content": "一般性",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "选择性",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "直接性",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "间接性",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D",
+      "analysis": "间接性货币政策工具包括以下几项：①窗口指导；②道义劝告；③金融检查；④公开宣传等。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 17843,
+      "number": 49,
+      "content": "行政处分不包括以下哪类: ( )。",
+      "options": [
+        {
+          "tag": "A",
+          "content": "警告",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "记过",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "降级",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "降职",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D",
+      "analysis": "",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 16319,
+      "number": 50,
+      "content": "下列贷款中，应至少归为次级类的是（）。",
+      "options": [
+        {
+          "tag": "A",
+          "content": "借新还旧，或者需通过其他融资方式偿还",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "同一借款人对本行或其他银行的部分债务已经不良",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "逾期(含展期后)超过一定期限、其应收利息不再计入当期损益",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "改变贷款用途",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "analysis": "下列贷款应至少归为次级类贷款：1.逾期（含展期后）超过一定期限、其应收利息不再计入当期损益。2.借款人利用合并、分立等形式恶意逃废银行债务，本金或者利息已经逾期。ABD三项都属于至少归为关注类的贷款。",
+      "score": 5.0,
+      "type": 1
+    },
+    {
+      "id": 14005,
+      "number": 51,
+      "content": "K-means算法适用于大规模数据集。",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": true
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "1",
+      "analysis": "K-means计算效率高，适合大规模数据集。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 13808,
+      "number": 52,
+      "content": "使用 `use = \"pairwise.complete.obs\"` 可以最大化利用数据中的有效观测。",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": true
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "1",
+      "analysis": "该参数按变量对进行成对删除，保留尽可能多的数据点。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 13856,
+      "number": 53,
+      "content": "Plotly 不能在 Jupyter Notebook 中直接显示图表。",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": false
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "2",
+      "analysis": "Plotly 支持在 Jupyter Notebook 中直接显示交互式图表。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 13654,
+      "number": 54,
+      "content": "`is.na()` 函数可以用于检测数值型和字符型数据中的缺失值。",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": true
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "1",
+      "analysis": "`is.na()` 可以用于各种数据类型的缺失值检测。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 13981,
+      "number": 55,
+      "content": "分类模型不需要标签数据进行训练。",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": false
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "2",
+      "analysis": "分类模型属于监督学习，需要带标签的数据进行训练。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 13730,
+      "number": 56,
+      "content": "Z-score方法适用于非正态分布的数据。",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": false
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "2",
+      "analysis": "Z-score基于均值和标准差，假设数据近似正态分布，否则效果不佳。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 13958,
+      "number": 57,
+      "content": "逻辑回归是一种广义线性模型。",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": true
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "1",
+      "analysis": "逻辑回归属于广义线性模型（GLM）的一种，使用logit链接函数建模二分类因变量的概率。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 13831,
+      "number": 58,
+      "content": "散点图不能用来确定两个变量之间是否存在线性关系。",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": false
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "2",
+      "analysis": "散点图实际上是非常有用的工具之一，用来探索两个连续变量之间是否存在线性或者其他形式的相关联性。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 13606,
+      "number": 59,
+      "content": "COALESCE函数可以接收多个参数，并返回第一个非空值。",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": true
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "1",
+      "analysis": "这是 `COALESCE` 的特性，例如 `COALESCE(NULL, NULL, 'default')` 返回 `'default'`。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 13633,
+      "number": 60,
+      "content": "使用`drop_duplicates()`删除重复值时，可以指定保留第一个还是最后一个出现的重复值。",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": true
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "1",
+      "analysis": "参数`keep='first'`或`keep='last'`可用于控制保留哪一个重复值。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 13682,
+      "number": 61,
+      "content": "`pd.to_datetime()`不能处理格式不统一的日期字符串。",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": false
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "2",
+      "analysis": "`pd.to_datetime()`具有强大的自动解析能力，可以处理多种格式混合的日期字符串。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 14234,
+      "number": 62,
+      "content": "准确率总是能很好地反映模型的真实性能。",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": false
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "2",
+      "analysis": "在类别不平衡的情况下，准确率可能会误导模型性能评估。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 13807,
+      "number": 63,
+      "content": "`rcorr()` 函数来自 `Hmisc` 包。",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": true
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "1",
+      "analysis": "`rcorr()` 是 Hmisc 包提供的函数，支持同时输出相关系数和 p 值。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 13525,
+      "number": 64,
+      "content": "在反洗钱模型中，用户地理位置信息无价值，应直接删除。",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": false
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "2",
+      "analysis": "可能关联团伙欺诈（如同一IP多账户交易）。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 13681,
+      "number": 65,
+      "content": "使用`astype('category')`可以减少内存占用。",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": true
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "1",
+      "analysis": "类别型数据存储比字符串更高效，尤其适用于重复出现的字符串。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 14077,
+      "number": 66,
+      "content": "K近邻（KNN）模型训练阶段不需要建立模型。",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": true
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "1",
+      "analysis": "KNN 是懒惰学习（Lazy Learning），不进行显式的模型训练，预测时才计算距离。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 13683,
+      "number": 67,
+      "content": "`OrdinalEncoder`适用于无序类别变量。",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": false
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "2",
+      "analysis": "`OrdinalEncoder`适用于有序类别变量，无序类别应使用`OneHotEncoder`。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 13632,
+      "number": 68,
+      "content": "`duplicated()`函数可以识别部分重复的列组合。",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": true
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "1",
+      "analysis": "可通过指定列列表如`df.duplicated(['col1', 'col2'])`来识别特定列组合的重复情况。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 13705,
+      "number": 69,
+      "content": "在SQL中，可以用RANK()函数来查看某列值的排名分布。",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": true
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "1",
+      "analysis": "RANK()是一个窗口函数，可用于排序并显示值在整体分布中的位置。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 14008,
+      "number": 70,
+      "content": "聚类结果可以直接用于预测新样本的类别。",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": false
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "2",
+      "analysis": "聚类本身是描述性的，不具备直接预测能力，需结合其他方法。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 14075,
+      "number": 71,
+      "content": "随机森林比单一决策树更容易过拟合。",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": false
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "2",
+      "analysis": "随机森林通过Bagging和特征随机选择减少过拟合风险，泛化能力更强。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 13908,
+      "number": 72,
+      "content": "时间序列预测只能使用 ARIMA 模型。",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": false
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "2",
+      "analysis": "时间序列预测还可使用 LSTM、Prophet、XGBoost 等多种模型。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 14006,
+      "number": 73,
+      "content": "层次聚类的结果可以用树状图（dendrogram）展示。",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": true
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "1",
+      "analysis": "dendrogram是层次聚类的典型可视化工具。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 13680,
+      "number": 74,
+      "content": "`OneHotEncoder`会自动处理缺失值。",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": false
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "2",
+      "analysis": "`OneHotEncoder`默认不会处理缺失值，需要先填充或删除缺失值。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 13514,
+      "number": 75,
+      "content": "AUC=0.5表示模型无判别能力，相当于随机猜测。",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": true
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "1",
+      "analysis": "AUC取值范围0.5~1，0.5表示正负类无法区分。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 13979,
+      "number": 76,
+      "content": "分类模型只能用于二分类问题。",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": false
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "2",
+      "analysis": "分类模型也可用于多分类任务，如手写数字识别（0~9共10类）。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 13707,
+      "number": 77,
+      "content": "DATE_TRUNC函数可以用于提取日期中的年、月、日等单位，便于时间分布分析。",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": true
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "1",
+      "analysis": "DATE_TRUNC是常用的日期截取函数，常用于时间序列分析。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 13757,
+      "number": 78,
+      "content": "在SQL中，斯皮尔曼等级相关系数可以直接通过一个函数计算。",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": false
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "2",
+      "analysis": "SQL不直接支持斯皮尔曼等级相关系数的计算，需要通过排名转换后使用皮尔逊相关系数。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 13881,
+      "number": 79,
+      "content": "`plotly` 可以将图表嵌入到网页中。",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": true
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "1",
+      "analysis": "`plotly` 生成的图表可以直接嵌入到网页中，并支持交互操作。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 14130,
+      "number": 80,
+      "content": "GAN 的训练过程中，生成器和判别器是同步优化的。",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": false
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "2",
+      "analysis": "GAN 的训练是一个博弈过程，生成器和判别器交替优化，共同提升。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 21844,
+      "number": 81,
+      "content": "个人经营贷款的发放对象可以是具有合法经营资格的个体工商户。( )",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": true
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "1",
+      "analysis": "个人经营贷款的对象应该是具有合法经营资格的个体工商户和小微企业主。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 21777,
+      "number": 82,
+      "content": "在一定期限内，时间间隔相同、不间断、金额不相等但每期增长率相等、方向相同的一系列现金流为普通增长型年金。 ( )",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": true
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "1",
+      "analysis": "普通增长型年金是指在一定期限内，时间间隔相同、不间断、金额按固定比例增长（即每期增长率相等）且方向相同的一系列现金流，题干描述符合其定义。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 21827,
+      "number": 83,
+      "content": "客户与银行确定还款方式以后，不得再改变已确定的还款方式。( )",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": false
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "2",
+      "analysis": "各商业银行的同一个人贷款可以有不同的还款方式供借款人选择，如到期一次还本付息法、等额本息还款法、等额本金还款法、等比累进还款法、等额累进还款法、组合还款法及按月还息、到期一次性还本的还款方法等多种方法，客户可以根据自己的收入情况，与银行协商后，转换不同的还款方法。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 17074,
+      "number": 84,
+      "content": "法人客户评级是对法人客户偿债能力和偿债意愿的综合评价，评级结果反映其一年期违约概率。",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": true
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "1",
+      "analysis": "",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 21796,
+      "number": 85,
+      "content": "信息披露通常是指公众公司以招股说明书、上市公告书、定期报告和临时报告等形式，向投资者和社会公众披露公司及与公司相关的信息。( )",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": true
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "1",
+      "analysis": "信息披露是公众公司的法定义务，披露形式包括招股说明书、定期报告等，目的是保障投资者知情权，题干表述正确。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 16499,
+      "number": 86,
+      "content": "商业银行监事会在履职过程中有权要求董事会和高级管理层提供信息披露、审计等方面的必要信息。监事会认为必要时，可以指派监事列席高级管理层会议。（）",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": true
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "1",
+      "analysis": "根据《商业银行公司治理指引》第五十二条规定，监事会在履职过程中有权要求董事会和高级管理层提供信息披露、审计等方面的必要信息。监事会认为必要时，可以指派监事列席高级管理层会议，对会议讨论事项提出质询或建议。这一规定旨在保障监事会能够有效履行监督职责，通过获取必要信息和参与相关会议，加强对董事会和高级管理层决策及经营活动的监督，确保商业银行治理的规范运作。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 21811,
+      "number": 87,
+      "content": "商业银行流动性覆盖率（LCR）的计算公式为：合格优质流动资产 / 未来 30 天现金净流出量。",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": true
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "1",
+      "analysis": "LCR = 合格优质流动资产 ÷ 未来 30 天现金净流出量 ×100%。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 21823,
+      "number": 88,
+      "content": "某企业向银行申请贷款，担保方式为权利质押担保，应付账款可以作为质物。( )",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": false
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "2",
+      "analysis": "能作为权利质押的质物通常是具有财产价值且可依法转让的权利，应付账款是负债，不能作为质物。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 14415,
+      "number": 89,
+      "content": "借记卡的免息期，一般在20~60天，按各章程而定。（ ）",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": false
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "2",
+      "analysis": "借记卡是指发卡银行向持卡人签发的，没有信用额度，持卡人先存款后使用的银行卡。借记卡无免息期。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 17054,
+      "number": 90,
+      "content": "申请黑金卡的客户，推荐函应由二级分行副行长或行长逐户推荐。",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": false
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "2",
+      "analysis": "",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 17036,
+      "number": 91,
+      "content": "非标准化代理投资业务包括非标准化理财投资和非标准化理财销售业务。",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": true
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "1",
+      "analysis": "",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 17052,
+      "number": 92,
+      "content": "个人住房公积金委托贷款业务核算分为明细核算和总额核算两种基本核算模式。",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": true
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "1",
+      "analysis": "",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 14417,
+      "number": 93,
+      "content": "汇票、本票的出票人签发无资金保证的汇票、本票或者在出票时作虚假记载，骗取财物的，构成金融凭证诈骗罪。",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": false
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "2",
+      "analysis": "汇票、本票的出票人签发无资金保证的汇票、本票或者在出票时作虚假记载，骗取财物的，构成票据诈骗罪，而非金融凭证诈骗罪。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 21799,
+      "number": 94,
+      "content": "同一交易主体的沪港通下的港股通账户和深港通下的港股通账户不可以混用。（）",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": true
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "1",
+      "analysis": "本题考查的是港股通的交易规则，题干描述正确。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 16473,
+      "number": 95,
+      "content": "《商业银行公司治理指引》规定，董事会会议不能采取通信表决的方式，只能采取会议表决的方式。（）",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": false
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "2",
+      "analysis": "《商业银行公司治理指引》规定，董事会会议可以采用会议表决(包括视频会议)和通信表决两种表决方式，实行一人一票。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 21849,
+      "number": 96,
+      "content": "风险管理中常用的久期分析方法侧重于计量利率变动对商业银行当期收益的影响。（）",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": false
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "2",
+      "analysis": "久期分析也称为持续期分析或期限弹性分析，是对银行资产负债利率敏感度进行分析的重要方法，主要用于衡量利率变动对银行整体经济价值的影响。而缺口分析主要用来衡量利率变动对银行当期收益的影响。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 21820,
+      "number": 97,
+      "content": "其他一级资本包括其他一级资本工具及其溢价、少数股东资本可计入部分。( )",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": true
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "1",
+      "analysis": "根据《商业银行资本管理办法（试行）》，其他一级资本的构成符合题干描述，题干表述正确。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 16479,
+      "number": 98,
+      "content": "商业银行应在各职能部门间建立有效的协调和信息共享机制，以防止风险管理上的疏漏、缺失或重复。（）",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": true
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "1",
+      "analysis": "商业银行应明确风险管理部门、投资经营部门及其他相关部门在债券投资风险管理中的作用，并形成书面规定，同时在各职能部门间建立有效的协调和信息共享机制，以防止风险管理上的疏漏、缺失或重复。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 21769,
+      "number": 99,
+      "content": "最大十家同业融入比例是指最大十家同业机构交易对手同业拆借、同业存放、卖出回购款项之和与总负债的比率。( )",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": true
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "1",
+      "analysis": "该指标用于衡量银行对同业资金的依赖程度，计算公式符合监管规定，题干表述正确。",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 17027,
+      "number": 100,
+      "content": "个人信用信息基础数据库采集和保存的信用信息，属于个人隐私和商业秘密，查询所得的客户信用报告及内容不得经任何形式向客户本人及其他未经授权人员泄露。",
+      "options": [
+        {
+          "tag": "1",
+          "content": "对",
+          "is_correct": true
+        },
+        {
+          "tag": "2",
+          "content": "错",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "1",
+      "analysis": "",
+      "score": 5.0,
+      "type": 4
+    },
+    {
+      "id": 13873,
+      "number": 101,
+      "content": "以下哪些是交互式可视化的优势？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "用户可以放大查看细节",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "图表更加美观",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "支持动态更新",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "节省存储空间",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "analysis": "交互式可视化允许用户与图表进行互动，例如放大、缩小、筛选数据等，并支持动态更新。美观性和存储空间不是其主要优势。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 13926,
+      "number": 102,
+      "content": "以下哪些函数可以用于模型评估？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "predict()",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "residuals()",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "summary()",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "plot()",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D",
+      "analysis": "这些函数都可以用于模型评估和诊断。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 14001,
+      "number": 103,
+      "content": "以下哪些是评估聚类效果的内部指标？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "轮廓系数",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "兰德指数",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "Calinski-Harabasz指数",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "互信息",
+          "is_correct": false
+        },
+        {
+          "tag": "E",
+          "content": "以上都不是",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "analysis": "轮廓系数和Calinski-Harabasz指数是纯内部指标，兰德指数和互信息需要真实标签。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 13827,
+      "number": 104,
+      "content": "下列关于树状图的说法哪些是正确的？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "树状图是一种分层数据可视化方法",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "每个节点都有唯一的父节点",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "叶子节点代表最终的数据单元",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "所有分支都必须达到相同的深度",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "analysis": "在典型的树状结构里，除了根节点外，每个节点确实只有一个直接的上级节点，但这并不意味着所有叶子节点都会出现在同样的层级上，实际应用中可能存在不同的终止层。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 13749,
+      "number": 105,
+      "content": "在SQL中，以下哪些情况下可以使用GROUP BY子句来分析特征相关性？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "按照不同地区计算销售额和广告投入的相关性",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "计算整个数据集中销售额和广告投入的相关性",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "按照不同时间段计算销售额和广告投入的相关性",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "计算销售额与多个特征之间的相关性",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "analysis": "GROUP BY子句可以在不同地区或时间段等分组条件下计算相关性，而不是在整个数据集或单个特征上。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 14000,
+      "number": 106,
+      "content": "聚类分析可用于以下哪些领域？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "市场营销中的客户细分",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "医学诊断",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "图像分割",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "社交网络分析",
+          "is_correct": true
+        },
+        {
+          "tag": "E",
+          "content": "推荐系统预处理",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E",
+      "analysis": "聚类广泛应用于客户细分、图像处理、社交网络分析及推荐系统的特征工程中；医学诊断更依赖监督学习。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 13976,
+      "number": 107,
+      "content": "以下哪些属于监督学习中的分类任务？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "信用评分预测",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "新闻分类",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "电影推荐系统",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "医疗诊断分类",
+          "is_correct": true
+        },
+        {
+          "tag": "E",
+          "content": "股票涨跌预测",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E",
+      "analysis": "推荐系统通常是协同过滤等无监督或强化学习方法；股票涨跌预测若为“涨/跌”也属于分类。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 13923,
+      "number": 108,
+      "content": "以下哪些包可以用于时间序列分析？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "forecast",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "tseries",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "stats",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "zoo",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D",
+      "analysis": "这些包都包含用于时间序列分析的函数。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 13852,
+      "number": 109,
+      "content": "以下哪些库支持交互式图表？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "Matplotlib",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "Seaborn",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "Plotly",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "Pyecharts",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D",
+      "analysis": "Plotly 和 Pyecharts 支持交互式图表，而 Matplotlib 和 Seaborn 主要是静态图表。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 13944,
+      "number": 110,
+      "content": "回归模型可用于以下哪些场景？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "预测房价",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "分析广告投入对销量的影响",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "判断用户是否会流失",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "识别图像中的猫狗",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "analysis": "D属于分类任务，通常使用分类模型如卷积神经网络；A、B、C均为典型的回归或类回归分析场景。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 13748,
+      "number": 111,
+      "content": "在SQL中，为了分析两个类别变量之间的相关性，可以采取哪些措施？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "使用卡方检验",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "将类别变量转换为数值变量后使用皮尔逊相关系数",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "使用斯皮尔曼等级相关系数",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "直接使用CORR()函数",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "analysis": "对于类别变量，可以使用卡方检验或斯皮尔曼等级相关系数。CORR()函数不适用于类别变量，将类别变量转换为数值变量后使用皮尔逊相关系数也不是最佳实践。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 13950,
+      "number": 112,
+      "content": "以下关于逐步回归的说法中正确的是？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "是一种变量选择方法",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "可以避免过拟合",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "包括向前选择和向后剔除两种方式",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "保证选出最优模型",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "analysis": "D错误，逐步回归并不保证找到全局最优模型，只是局部搜索策略。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 13622,
+      "number": 113,
+      "content": "处理异常值的方法包括以下哪些？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "对数据进行变换（如对数变换）",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "使用稳健统计方法（如中位数）",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "分箱处理",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "使用聚类算法识别并剔除异常簇",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D",
+      "analysis": "",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 13695,
+      "number": 114,
+      "content": "若某表中有一个数值型字段score，下列哪些SQL语句可以用来分析其分布情况？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "SELECT AVG(score), STDDEV(score) FROM table",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "SELECT score, COUNT(*) FROM table GROUP BY score",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "SELECT MIN(score), MAX(score) FROM table",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "SELECT COUNT(*) FROM table WHERE score IS NULL",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D",
+      "analysis": "所有选项均可用于分析score的分布情况**，包括集中趋势、离散程度、频次分布及缺失值情况。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 13539,
+      "number": 115,
+      "content": "反洗钱模型的特征构造策略",
+      "options": [
+        {
+          "tag": "A",
+          "content": "关联网络特征（如转账环检测）",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "交易金额离散化",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "直接使用用户姓名",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "时空聚集特征（如短时多地点交易）",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D",
+      "analysis": "C违反隐私保护原则。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 13970,
+      "number": 116,
+      "content": "以下哪些是分类模型的评估指标？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "准确率",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "精度",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "召回率",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "F1分数",
+          "is_correct": true
+        },
+        {
+          "tag": "E",
+          "content": "均方误差",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D",
+      "analysis": "均方误差（MSE）用于回归任务，不属于分类模型评估指标。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 13728,
+      "number": 117,
+      "content": "以下关于箱线图说法正确的有？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "可以识别离群点",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "显示了五数概括（最小值、Q1、中位数、Q3、最大值）",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "可以比较不同组之间的分布差异",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "不受极端值影响",
+          "is_correct": false
+        },
+        {
+          "tag": "E",
+          "content": "适用于分类变量",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "analysis": "箱线图适用于数值型数据，能够清晰展示五数概括、离群点及组间差异。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 13802,
+      "number": 118,
+      "content": "以下哪些数据类型可以用于相关性分析？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "连续型变量",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "有序变量（等级变量）",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "名义变量",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "时间序列变量",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D",
+      "analysis": "名义变量（如性别）通常不用相关性分析，而用卡方检验或其他方法。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 13769,
+      "number": 119,
+      "content": "Python中可用于计算相关性的库包括：",
+      "options": [
+        {
+          "tag": "A",
+          "content": "pandas",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "numpy",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "scipy",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "matplotlib",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "analysis": "",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 13548,
+      "number": 120,
+      "content": "模型上线前必须完成的验证环节：",
+      "options": [
+        {
+          "tag": "A",
+          "content": "离线测试集性能评估",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "线上A/B测试",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "计算资源消耗压测",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "业务规则兼容性检查",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D",
+      "analysis": "金融场景需兼顾技术性能与业务合规。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 13726,
+      "number": 121,
+      "content": "以下哪些函数可用于计算数据分布的统计指标？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "`mean()`",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "`std()`",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "`skew()`",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "`describe()`",
+          "is_correct": true
+        },
+        {
+          "tag": "E",
+          "content": "`boxplot()`",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D",
+      "analysis": "`mean()`、`std()`、`skew()`、`describe()` 均可用于计算分布统计指标；`boxplot()` 是绘图函数。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 13822,
+      "number": 122,
+      "content": "散点图可以用于哪些目的？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "确定因果关系",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "发现聚类模式",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "测量变量间的相关系数",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "展示分布范围",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "analysis": "虽然散点图可以帮助推测变量间可能存在某种联系，但它并不能直接证明因果关系的存在。它可以辅助识别数据点是否形成特定群体以及计算两者之间的相关度指标。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 13531,
+      "number": 123,
+      "content": "提升风控模型效果的特征工程方法",
+      "options": [
+        {
+          "tag": "A",
+          "content": "构造用户历史违约率统计特征",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "对交易时间提取小时/星期特征",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "直接使用身份证号原始值",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "计算近7天交易频次滚动均值",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D",
+      "analysis": "C错误，身份证号需哈希或删除。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 13700,
+      "number": 124,
+      "content": "使用SQL分析数据分布时，可能遇到的问题包括？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "缺失值干扰统计结果",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "数据倾斜导致某些值占比过大",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "聚合函数使用不当",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "字段类型错误导致无法计算",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D",
+      "analysis": "以上均为实际数据分析中常见的问题，会影响数据分布分析的准确性。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 13719,
+      "number": 125,
+      "content": "以下哪些方法可用于检测离群点？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "箱线图",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "Z-score法",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "直方图",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "散点图",
+          "is_correct": true
+        },
+        {
+          "tag": "E",
+          "content": "描述性统计",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D",
+      "analysis": "描述性统计提供均值、方差等信息，本身不直接检测离群点，需结合其他方法；",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 13544,
+      "number": 126,
+      "content": "在构建企业信用风险模型时，必须考虑的数据源包括：",
+      "options": [
+        {
+          "tag": "A",
+          "content": "企业财务报表",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "上下游供应链交易数据",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "法人代表社交网络活跃度",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "行业政策变动新闻",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D",
+      "analysis": "C（社交活跃度）缺乏业务相关性，需谨慎使用。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 13894,
+      "number": 127,
+      "content": "下列哪些库可用于构建深度学习模型？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "TensorFlow",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "PyTorch",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "Scikit-learn",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "Keras",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D",
+      "analysis": "TensorFlow、PyTorch 和 Keras 都是深度学习常用框架；Scikit-learn 主要用于传统机器学习。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 13874,
+      "number": 128,
+      "content": "以下哪些函数可以用于绘制箱型图？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "boxplot()",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "geom_boxplot()",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "plot()",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "ggplot() + geom_boxplot()",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D",
+      "analysis": "`boxplot()` 是基础绘图系统中的函数，`geom_boxplot()` 是 `ggplot2` 中的函数，通常需要结合 `ggplot()` 使用。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 13551,
+      "number": 129,
+      "content": "关于AutoML在金融中的应用限制：",
+      "options": [
+        {
+          "tag": "A",
+          "content": "可解释性可能不满足监管要求",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "超参搜索空间需业务约束",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "完全替代人工特征工程",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "适用于高频率交易策略生成",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B",
+      "analysis": "C错误，业务特征仍需人工设计；D属量化投资领域。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 13795,
+      "number": 130,
+      "content": "关于 `cor()` 函数的说法，哪些是正确的？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "默认使用斯皮尔曼方法",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "可以处理缺失值",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "输入可以是一个向量或数据框",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "输出结果范围在 [-1, 1] 之间",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "D",
+      "analysis": "`cor()` 默认使用皮尔逊方法，且遇到 NA 默认返回 NA，除非指定 `use=` 参数。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 16430,
+      "number": 131,
+      "content": "对于抵/质押担保，商业银行通常在综合考虑抵/质押品（）等因素的基础上，确定抵/质押率。",
+      "options": [
+        {
+          "tag": "A",
+          "content": "种类",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "合法授权",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "变现能力",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "预计变现费用",
+          "is_correct": true
+        },
+        {
+          "tag": "E",
+          "content": "价值稳定性",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E",
+      "analysis": "对于抵（质）押担保，商业银行通常在综合考虑抵（质）押品种类、变现能力、预计变现费用、价值稳定性等因素的基础上，确定抵（质）押率。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 13428,
+      "number": 132,
+      "content": "《商业银行资本管理办法》中，信用风险加权资产的计算方法包括？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "权重法",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "内部评级法",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "蒙特卡洛模拟法",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "方差分析法",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B",
+      "analysis": "信用风险加权资产可采用权重法或内部评级法，蒙特卡洛模拟用于市场风险。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 16440,
+      "number": 133,
+      "content": "监管部门根据银行业金融机构的风险水平和对金融体系稳定的影响程度确定该法人(集团)的监管周期，该监管周期包括（）。",
+      "options": [
+        {
+          "tag": "A",
+          "content": "日常监测分析",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "制订监管计划",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "监管评级",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "检查规定执行情况",
+          "is_correct": false
+        },
+        {
+          "tag": "E",
+          "content": "现场检查联动",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E",
+      "analysis": "单一监管周期包括制订监管计划、日常监测分析、风险评估、现场检查联动、监管评级和监管总结六个环节，形成持续性的非现场监管循环。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 21721,
+      "number": 134,
+      "content": "分析区域劳动人口时，应重点分析（ ）等问题。",
+      "options": [
+        {
+          "tag": "A",
+          "content": "人口数量",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "教育水平",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "人口分布",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "人口素质",
+          "is_correct": true
+        },
+        {
+          "tag": "E",
+          "content": "区域适度人口的规模",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E",
+      "analysis": "区域劳动人口的数量会影响区域自然资源开发利用的规模（生产规模的大小），区域人口的素质会影响区域经济的发展水平和区域产业的构成状况，应重点分析人口的数量、素质、分布及其资源数量和分布及生产布局的适应性或协调性，区域适度人口的规模等问题。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 21729,
+      "number": 135,
+      "content": "以下属于可以开立专用存款账户的资金有（）。",
+      "options": [
+        {
+          "tag": "A",
+          "content": "注册验资",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "收入汇缴资金",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "业务支出资金",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "金融机构存放同业资金",
+          "is_correct": true
+        },
+        {
+          "tag": "E",
+          "content": "单位银行卡备用金",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E",
+      "analysis": "《人民币银行结算账户管理办法》第十三条规定，专用存款账户是存款人按照法律、行政法规和规章，对其特定用途资金进行专项管理和使用而开立的银行结算账户。对下列资金的管理与使用，存款人可以申请开立专用存款账户：①基本建设资金；②更新改造资金；③财政预算外资金；④粮、棉、油收购资金；⑤证券交易结算资金；⑥期货交易保证金；⑦信托基金；⑧金融机构存放同业资金；⑨政策性房地产开发资金；⑩单位银行卡备用金；⑪住房基金；⑫社会保障基金；⑬收入汇缴资金和业务支出资金；⑭党、团、工会设在单位的组织机构经费；⑮其他需要专项管理和使用的资金。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 18154,
+      "number": 136,
+      "content": "在银行机构信息披露中，具体披露的内容和要求应按 ( ) 方面确定",
+      "options": [
+        {
+          "tag": "A",
+          "content": "安全性",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "风险性",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "审慎性",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "流动性",
+          "is_correct": true
+        },
+        {
+          "tag": "E",
+          "content": "效益性",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E",
+      "analysis": "银行信息披露内容按安全性、流动性、效益性确定，风险性和审慎性是披露的原则而非确定内容的维度",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 15082,
+      "number": 137,
+      "content": "流动性风险限额的指标通常包括(       )。",
+      "options": [
+        {
+          "tag": "A",
+          "content": "案件风险率",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "净稳定资金比例",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "流动性比例",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "操作风险经济资本率",
+          "is_correct": false
+        },
+        {
+          "tag": "E",
+          "content": "存贷比",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E",
+      "analysis": "AD属于操作风险指标。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 16434,
+      "number": 138,
+      "content": "《商业银行内部控制指引》结合商业银行实际，确定了商业银行内部控制的目标，其中包括（）。",
+      "options": [
+        {
+          "tag": "A",
+          "content": "保证国家有关法律法规及规章的贯彻执行",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "保证资产负债业务快速发展",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "保证商业银行发展战略和经营目标的实现",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "保证商业银行业务记录、会计信息、财务信息和其他管理信息的真实、准确、完整和及时",
+          "is_correct": true
+        },
+        {
+          "tag": "E",
+          "content": "保证商业银行风险管理的有效性",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E",
+      "analysis": "《商业银行内部控制指引》结合商业银行实际，确定了商业银行内部控制的四个目标。（一）保证国家有关法律法规及规章的贯彻执行（二）保证商业银行发展战略和经营目标的实现（三）保证商业银行风险管理的有效性（四）保证商业银行业务记录、会计信息、财务信息和其他管理信息的真实、准确、完整和及时",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 21759,
+      "number": 139,
+      "content": "商业银行的表内外资产划分为交易账户和银行账户的目的有 ( ) 。",
+      "options": [
+        {
+          "tag": "A",
+          "content": "准确计量市场风险资本",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "实施有效的市场风险管理",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "以公允价值计量银行资产",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "建立管理会计系统",
+          "is_correct": false
+        },
+        {
+          "tag": "E",
+          "content": "真实反映银行财务状况",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B",
+      "analysis": "划分交易账户和银行账户的目的是准确计量市场风险资本、实施有效市场风险管理（选项 C、D、E 不属于主要目的）。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 21723,
+      "number": 140,
+      "content": "目前能够发挥世界货币职能的货币主要有（ ）。",
+      "options": [
+        {
+          "tag": "A",
+          "content": "欧元",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "英镑",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "美元",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "日元",
+          "is_correct": true
+        },
+        {
+          "tag": "E",
+          "content": "人民币",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D",
+      "analysis": "目前，能够发挥世界货币职能的货币主要有美元、欧元、英镑、日元等。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 16583,
+      "number": 141,
+      "content": "为满足大学生合理消费信贷需求，各银行业金融机构在风险可控的前提下，可开发针对性、差异化的互联网消费信贷产品，遵循（    ）的原则，严格限制同一借款人贷款余额和大学生互联网消费贷款总业务规模，加强产品营销管理，严格大学生资质审核，提高资产质量。",
+      "options": [
+        {
+          "tag": "A",
+          "content": "小额",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "短期",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "风险可控",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "收益性",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "analysis": "",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 13430,
+      "number": 142,
+      "content": "商业银行流动性风险监管指标包括？",
+      "options": [
+        {
+          "tag": "A",
+          "content": "流动性覆盖率（LCR）",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "净稳定资金比率（NSFR）",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "资本充足率",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "拨备覆盖率",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "B",
+      "analysis": "LCR和NSFR是流动性风险指标，资本充足率和拨备覆盖率属于资本管理指标。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 21687,
+      "number": 143,
+      "content": "根据《中华人民共和国合同法》的规定，导致无效合同的原因有（）。",
+      "options": [
+        {
+          "tag": "A",
+          "content": "以合法形式掩盖非法目的",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "一方以欺诈的手段订立合同，损害国家利益",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "一方以胁迫的手段订立合同，损害国家利益",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "因重大误解而订立的合同",
+          "is_correct": false
+        },
+        {
+          "tag": "E",
+          "content": "在订立合同时显失公平",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "C",
+      "analysis": "《中华人民共和国民法典》第五百零八条规定，本编对合同的效力没有规定的，适用本法第一编第六章的有关规定。该法第一百四十六条规定，行为人与相对人以虚假的意思表示实施的民事法律行为无效。以虚假的意思表示隐藏的民事法律行为的效力，依照有关法律规定处理。该法第一百四十七条规定，基于重大误解实施的民事法律行为，行为人有权请求人民法院或者仲裁机构予以撤销。该法第一百五十一条规定，一方利用对方处于危困状态、缺乏判断能力等情形，致使民事法律行为成立时显失公平的，受损害方有权请求人民法院或者仲裁机构予以撤销。该法第一百五十三条规定，违反法律、行政法规的强制性规定的民事法律行为无效。但是，该强制性规定不导致该民事法律行为无效的除外。违背公序良俗的民事法律行为无效。该法第一百五十四条规定，行为人与相对人恶意串通，损害他人合法权益的民事法律行为无效。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 21681,
+      "number": 144,
+      "content": "下列哪些是商业银行可以经营的业务？（ ）",
+      "options": [
+        {
+          "tag": "A",
+          "content": "从事银行卡业务",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "发行金融债券",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "办理国内外结算",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "从事同业拆借",
+          "is_correct": true
+        },
+        {
+          "tag": "E",
+          "content": "提供保管箱服务",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E",
+      "analysis": "商业银行可以经营下列部分或者全部业务：①吸收公众存款；②发放短期、中期和长期贷款；③办理国内外结算；④办理票据承兑与贴现；⑤发行金融债券；⑥代理发行、代理兑付、承销政府债券；⑦买卖政府债券、金融债券；⑧从事同业拆借；⑨买卖、代理买卖外汇；⑩从事银行卡业务；⑪提供信用证服务及担保；⑫代理收付款项及代理保险业务；⑬提供保管箱服务；⑭经国务院银行业监督管理机构批准的其他业务。经营范围由商业银行章程规定，报国务院银行业监督管理机构批准。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 21716,
+      "number": 145,
+      "content": "商业银行资本的作用主要有（）。",
+      "options": [
+        {
+          "tag": "A",
+          "content": "为银行提供融资",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "吸收和消化损失",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "限制银行业务过度扩张",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "发放贷款",
+          "is_correct": false
+        },
+        {
+          "tag": "E",
+          "content": "维持市场信心",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E",
+      "analysis": "银行资本的作用主要有以下四项：①为银行提供融资；②吸收和消化损失；③限制业务过度扩张；④维持市场信心。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 21755,
+      "number": 146,
+      "content": "商业银行在识别和分析贷款组合的信用风险时，系统性风险因素包括 ( ) 。",
+      "options": [
+        {
+          "tag": "A",
+          "content": "行业风险因素",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "管理层风险因素",
+          "is_correct": false
+        },
+        {
+          "tag": "C",
+          "content": "区域风险因素",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "企业产品销售风险因素",
+          "is_correct": false
+        },
+        {
+          "tag": "E",
+          "content": "宏观经济因素",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E",
+      "analysis": "管理层风险、企业产品销售风险属于非系统性风险（选项 B、D 错误）。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 21734,
+      "number": 147,
+      "content": "《中华人民共和国刑法》规定的主刑有（）。",
+      "options": [
+        {
+          "tag": "A",
+          "content": "无期徒刑",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "拘役",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "有期徒刑",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "死刑",
+          "is_correct": true
+        },
+        {
+          "tag": "E",
+          "content": "管制",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E",
+      "analysis": "《中华人民共和国刑法》规定刑罚的主刑包括管制、拘役、有期徒刑、无期徒刑、死刑。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 18146,
+      "number": 148,
+      "content": "银行账户利率风险计量的常用方法包括 ( )",
+      "options": [
+        {
+          "tag": "A",
+          "content": "敏感性分析",
+          "is_correct": true
+        },
+        {
+          "tag": "B",
+          "content": "缺口分析",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "情景模拟",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "久期分析",
+          "is_correct": true
+        },
+        {
+          "tag": "E",
+          "content": "敞口分析",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D",
+      "analysis": "银行账户利率风险计量方法包括敏感性分析、缺口分析、情景模拟、久期分析等。敞口分析主要用于汇率风险等，故前四项正确",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 21696,
+      "number": 149,
+      "content": "银行业从业人员的下列行为中，属于 “反洗钱” 义务的有（）。",
+      "options": [
+        {
+          "tag": "A",
+          "content": "除非经内部职责调整或经过适当批准，不为其他岗位的人员代为履行职责",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "熟知银行承担的反洗钱义务",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "保守所在机构的商业秘密，保护客户信息和隐私",
+          "is_correct": false
+        },
+        {
+          "tag": "D",
+          "content": "在严守客户隐私的同时，及时按照所在机构要求报告大额交易和可疑交易",
+          "is_correct": true
+        },
+        {
+          "tag": "E",
+          "content": "不得透漏任何客户资料和交易信息",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": "D",
+      "analysis": "遵守反洗钱、反恐怖融资规定要求银行业从业人员应当遵守反洗钱、反恐怖融资有关规定，熟知银行承担的义务，严格按照要求落实报告大额和可疑交易等工作。",
+      "score": 10.0,
+      "type": 2
+    },
+    {
+      "id": 21680,
+      "number": 150,
+      "content": "下列属于公司董事会职责的有（）。",
+      "options": [
+        {
+          "tag": "A",
+          "content": "决定公司组织变更、解散、清算",
+          "is_correct": false
+        },
+        {
+          "tag": "B",
+          "content": "聘任或者解聘公司经理",
+          "is_correct": true
+        },
+        {
+          "tag": "C",
+          "content": "制定公司基本管理制度",
+          "is_correct": true
+        },
+        {
+          "tag": "D",
+          "content": "执行股东（大）会决议，负责公司日常经营决策",
+          "is_correct": true
+        },
+        {
+          "tag": "E",
+          "content": "召集股东（大）会，并向股东（大）会报告工作",
+          "is_correct": true
+        }
+      ],
+      "correct_answer": "E",
+      "analysis": "董事会（不设董事会的公司为执行董事）是公司的经营决策机构，负责召集股东（大）会，并向股东（大）会报告工作；执行股东（大）会决议，负责公司日常经营决策；聘任或者解聘公司经理（总经理），制定公司基本管理制度。董事会必须对股东（大）会负责，接受股东（大）会监督。董事长由董事会选举产生。董事长主持股东（大）会，召集并主持董事会，在诉讼事务和非诉讼事务上对外均代表公司。A 项为股东（大）会的职责。",
+      "score": 10.0,
+      "type": 2
+    }
+  ]
+}

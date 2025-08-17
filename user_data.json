@@ -1,0 +1,56 @@
+{
+  "users": {
+    "default_user": {
+      "answered_questions": [
+        13760,
+        13488,
+        21502,
+        21550
+      ],
+      "wrong_questions": [
+        13760,
+        13488,
+        21502
+      ],
+      "wrong_count": {
+        "13760": 1,
+        "21502": 1,
+        "13488": 1
+      }
+    }
+  },
+  "wrong_questions": {
+    "default_user": [
+      {
+        "question_id": 13760,
+        "user_answer": "A",
+        "correct_answer": "B",
+        "timestamp": "2025-08-17T14:15:17.260105",
+        "question_content": "下列哪种相关系数适用于衡量非线性关系？",
+        "analysis": "斯皮尔曼相关系数基于数据的排名，适合衡量非线性但单调的关系。",
+        "type": 1
+      },
+      {
+        "question_id": 21502,
+        "user_answer": "A",
+        "correct_answer": "D",
+        "timestamp": "2025-08-17T14:15:32.362809",
+        "question_content": "《中华人民共和国民法典》确立的两类质押是（）。",
+        "analysis": "《中华人民共和国民法典》确立的质押类型有动产质押和权利质押两类。动产质押，是为担保债务的履行，债务人或者第三人将其动产出质给债权人占有的，债务人不履行到期债务或者发生当事人约定的实现质权的情形，债权人有权就该动产优先受偿。权利质押，是以法律和行政法规所允许出质的财产权利为债权设定担保，其设立法定手续有交付权利凭证和履行登记手续两类。",
+        "type": 1
+      },
+      {
+        "question_id": 13488,
+        "user_answer": "A",
+        "correct_answer": "C",
+        "timestamp": "2025-08-17T14:15:45.230159",
+        "question_content": "在神经网络中，Batch Normalization的作用不包括？",
+        "analysis": "BN通过标准化层输入稳定训练，但与Dropout（随机失活）作用不同，可互补使用。",
+        "type": 1
+      }
+    ]
+  },
+  "exam_records": {
+    "default_user": []
+  }
+}
